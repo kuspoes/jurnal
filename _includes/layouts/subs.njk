@@ -1,21 +1,22 @@
-<div class="w-99 mx-auto border rounded-md p-4 font-sans my-12 bg-gray-100">
+<div class="border rounded-md p-4 font-sans my-12 bg-gray-100 py-8">
     <h4 class="mb-4 -mt-2">Berlangganan artikel</h4>
-    <p class="font-sserif text-base mb-4">
+    <p class="subx w-99 font-sserif text-base">
         Suka dengan artikel seperti ini?, yuk berlangganan melalui <a href="https://kusaeni.com/feed.xml" alt="Subscribe to RSS">RSS</a> atau ketik
             emailmu di bawah ini untuk mendapatkan <i>update</i> artikel terbaru langsung ke <i>inbox</i>mu.
     </p>
-    <form action="https://buttondown.email/api/emails/embed-subscribe/kuspoes" method="post" target="popupwindow"
-    onsubmit="window.open('https://buttondown.email/kuspoes', 'popupwindow')" class="embeddable-buttondown-form text-sans">
-    <label class="block text-base" for="bd-email">Masukkan alamat e-mail : </label>
-    <p class="text-sm text-gray-500 mb-1">
+    <p class="subx w-99 text-sm text-gray-500 mb-4">
         Kamu bisa berhenti berlangganan dengan mudah kapan saja.
     </p>
-    <input class="border border-gray-300 w-3/4 rounded-md text-base mr-2 p-3 focus:ring-0 focus:ring-gray-300" type="email"
+    <form action="https://buttondown.email/api/emails/embed-subscribe/kuspoes" method="post" target="popupwindow"
+    onsubmit="window.open('https://buttondown.email/kuspoes', 'popupwindow')" class="subx embeddable-buttondown-form text-sans">
+    <label class="block text-base" for="bd-email">Masukkan alamat e-mail : </label>
+    <input class="border border-gray-300 w-full md:w-3/4 rounded-md text-base mr-2 mb-2 md:mb-0 p-3 focus:ring-0 focus:ring-gray-300" type="email"
         name="email" id="bd-email" placeholder="you@youremail.com"/>
     <input class="" type="hidden" value="1" name="embed" />
-    <input class="px-5 py-3 rounded text-base bg-red-500 text-white font-semibold" type="submit" value="Subscribe" />
+    <input class="block md:inline w-full md:w-32 px-5 py-3 rounded text-base bg-red-500 text-white font-semibold" 
+    type="submit" value="Subscribe" />
     <p class="text-sm text-gray-500">
         <a href="https://buttondown.email" target="_blank">Powered by Buttondown.</a>
     </p>
-</form>
+    </form>
 </div>
