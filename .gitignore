@@ -4,3 +4,4 @@ package-lock.json
 tailwind.css
 tailwind.config.js
 *.draft.njk
+log.txt
