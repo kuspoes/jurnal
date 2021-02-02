@@ -1,0 +1,53 @@
+{%include 'layouts/header.njk' %}
+{%include 'layouts/menu.njk' %}
+<article class="text-artikel mx-auto">
+    <header class="mt-16 md:mt-40 mb-12 md:mb-24">
+        <div class="font-sans my-8">
+            {% if '/jurnal' in page.url %}
+            <div class="text-sm md:text-lg text-gray-500">{{ date | dateReadable }}
+                {% if update %}<a class="bersih" href="#update">
+                    <span class="bg-red-100 text-red-700 font-sans font-semibold text-xs md:text-sm px-2 inline-block uppercase rounded-md
+                ml-2">updated</span></a>
+                {% endif %}
+            </div>
+            {% endif %}
+            <h1 class="text-xl md:text-5xl tracking-tight font-bold mb-2">{{ title }}</h1>
+            <div class="font-semibold text-base md:text-xl md:mb-2 text-gray-400">{{ ringkasan }}</div>
+        </div>
+    </header>
+
+    <div class="w-99 mx-auto flex">
+        <img class="mb-12 shadow-md" width="176" height="320" src="{{ coverImg }}" alt="The Name of Rose">
+        <div class="flex-1 w-1/2 pl-8 text-lg text-gray-700">
+            <dl>
+                <dt>Penulis</dt>
+                <dd>{{ penulis }}</dd>
+                <dt>Genre</dt>
+                <dd>{{ genre }}</dd>
+                <dt>Format</dt>
+                <dd>{{ format }}</dd>
+                <dt>ISBN</dt>
+                <dd>{{ isbn }} tahun {{ tahun }}</dd>
+            </dl>
+        </div>
+    </div>
+    <div class="w-99 mx-auto font-sans text-base bg-gray-100 rounded-md mb-10 p-8">
+        <dl>
+            <div class="flex flex-row">
+                <dt class="w-1/4">Rating</dt>
+                <dd class="-ml-8">{{ rating | safe }} dari 5</dd>
+            </div>
+            <div class="flex flex-row">
+                <dt class="w-1/4">Ringkasan</dt>
+                <dd class="ml-10">{{ resensi | safe }}</dd>
+            </div>
+            <div class="flex flex-row">
+                <dt class="w-1/4">Beli</dt>
+                <dd class="-ml-8"><a href="{{ beli }}" target="_blank">{{ dimana }}</a></dd>
+            </div>
+        </dl>
+    </div>
+    {{ content | safe }}
+</article>
+{%include 'layouts/subs.njk' %}
+{%include 'layouts/footer.njk' %}
