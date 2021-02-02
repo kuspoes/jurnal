@@ -34,29 +34,6 @@ npm run serve
 npx eleventy --serve
 ```
 
-# Tailwindcss
-Layout desain blog ini mempergunakan [https://tailwindcss.com](Tailwindcss) yang diinstall di folder berbeda.
+# CDN Image
 
-Build dari tailwindcss diarahkan ke folder ```css``` di dalam folder eleventy berada. 
-
-Dengan struktur folder sebagi berikut :
-
-``` sh
--- Blog
-    |--- 11ty
-        |-- _data
-        |-- _includes
-        |-- index.njk
-        |-- .eleventy.js
-        |-- .gitignore
-        |-- ....
-        |-- package.json # untuk 11ty
-    |-- tailwind.css
-    |-- tailwind.config.css
-    |-- postcss.config.css
-    |-- package.json # untuk tailwindcss
-```
-
-Terlihat ruwet?
-
-Phil Hawksworth membuat *Eleventy stater pack* yang sudah *built in* dengan Tailwindcss. Kamu bisa mendapatkannya disini : [Eleventail](https://github.com/philhawksworth/eleventail)
+*Image Management & Delivery* diladeni oleh [imagekit.io](https://imagekit.io) 
