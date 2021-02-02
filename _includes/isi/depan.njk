@@ -1,0 +1,17 @@
+{%include 'layouts/header.njk' %}
+{%include 'layouts/menu.njk' %}
+<main class="text-artikel mx-auto">
+    <header class="mt-16 md:mt-40 mb-12 md:mb-24">
+        <div class="font-sans my-8">
+            <h1 class="text-xl md:text-5xl tracking-tight font-bold mb-2">
+                Jurnal
+            </h1>
+            <div class="text-base md:text-lg md:mb-2 text-gray-500">
+                <p>Berlangganan lewat <a class="subsl" href="#">email</a> atau <a class="subsl" href="#">RSS</a>
+                </p>
+            </div>
+        </div>
+    </header>
+    {{ content | safe }}
+</main>
+{%include 'layouts/footer.njk' %}

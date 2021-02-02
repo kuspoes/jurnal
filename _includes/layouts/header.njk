@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title or metadata.title }}</title>
+    <link rel="stylesheet" href="{{ '/css/style.css' | url }}">
+    <link rel="stylesheet" href="{{ '/css/fonts.css' | url }}">
+    <link rel="shortcut icon" href="{{ '/favicon.ico' | url }}" type="image/x-icon">
+    <link rel="alternate" type="application/rss+xml" title="Subscribe to Kusaeni Jurnal" href="https://kusaeni.com/feed.xml" />
+
+</head>
+<body id="top" class="font-sserif text-lg md:text-xl">
+    {% if '/foto' in page.url %}
+        <div id="halaman" class="w-full mx-auto">
+    {% elif  '/baca' in page.url %}
+        <div id="halaman" class="w-full md:w-4/5 mx-auto">
+    {% else %}
+        <div id="halaman" class="w-full md:w-100 mx-auto">
+    {% endif %}

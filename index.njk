@@ -1,0 +1,16 @@
+---
+    layout: isi/depan.njk
+    title: 'Kusaeni : tulisan dan catatan'
+---
+
+<ol class="postlist">
+    {% for artikel in collections.jurnal | reverse %}
+    <li class="plist">
+        <a class="nodec" href="{{ artikel.url | url }}">
+            <div class="font-sans text-sm uppercase text-gray-600 mb-1">{{ artikel.date | dateReadable }}</div>
+            <div class="text-xl text-black">{{ artikel.data.title }}</div>
+            <div class="font-sans text-base text-gray-600">{{ artikel.data.ringkasan }}</div>
+        </a>
+    </li>
+    {% endfor %}
+</ol>
