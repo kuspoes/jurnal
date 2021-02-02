@@ -23,7 +23,7 @@ npx eleventy
 Karena ```css``` mempergunakan ```tailwindcss``` maka sebelum ```push``` ke Github, ```style.css``` perlu dikecilkan ukurannya.
 
 ``` sh
-postcss tailwind.css -o 11ty/css/style.css
+postcss tailwind.css -o css/style.css
 ```
 
 # Local Live Server
