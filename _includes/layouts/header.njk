@@ -10,6 +10,9 @@
     <link rel="alternate" type="application/rss+xml" title="Subscribe to Kusaeni Jurnal" href="https://kusaeni.com/feed.xml" />
 
 </head>
+{% if '/subs' in page.url %}
+<body id="top" class="bg-gray-100 font-sans text-lg md:text-xl">
+{% else %}
 <body id="top" class="font-sserif text-lg md:text-xl">
     {% if '/foto' in page.url %}
         <div id="halaman" class="w-full mx-auto">
@@ -18,3 +21,4 @@
     {% else %}
         <div id="halaman" class="w-full md:w-100 mx-auto">
     {% endif %}
+{% endif %}
