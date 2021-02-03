@@ -1,0 +1,39 @@
+---
+layout: isi/depan.njk
+title: 'Berlangganan'
+---
+
+<div class="border border-gray-400 rounded-md p-4 text-base">
+    
+    <div class="w-11/12 md:w-1/2 mx-auto text-justify p-2">
+        <div class="mb-10">
+            <div class="flex place-content-center">
+                <a href="{{ '/' | url }}"><img class="w-10 mb-4" src="{{ '/css/img/kusaeni.png' | url }}" alt="kusaeni"></a>
+            </div>
+            <p class="text-center font-semibold">Berlangganan Artikel Jurnal Kusaeni</p>
+        </div>
+        <div>
+            <form action="https://buttondown.email/api/emails/embed-subscribe/kuspoes" method="post"
+                target="popupwindow" onsubmit="window.open('https://buttondown.email/kuspoes', 'popupwindow')"
+                class="embeddable-buttondown-form ">
+                <label class="block my-1" for="bd-email">e-mail</label>
+                <input
+                    class="block w-full border border-gray-200 rounded-md focus:ring-0 mb-2 p-2"
+                    type="email" name="email" id="bd-email" placeholder="you@youremail.com" />
+                <input type="hidden" value="1" name="embed" />
+                <input class="block w-full mb-6 p-2 rounded-md font-semibold bg-red-500 text-white" type="submit"
+                    value="Subscribe" />
+                <p class="text-sm text-gray-800 mb-4">
+                    Masukkan alamat email anda untuk memulai berlangganan artikel jurnal Kusaeni.</p>
+                <p class="text-sm text-gray-800 mb-4">Saya tidak akan
+                    mengirimkan spam dan tidak akan menjual alamat email anda.</p>
+                <p class="text-sm text-gray-800 mb-4">Jika sudah tidak ingin berlangganan,
+                    anda bisa berhenti berlangganan kapan saja dengan mudah.
+                </p>
+                <p class="text-sm text-gray-500">
+                    <a href="https://buttondown.email" target="_blank">Layanan ini didukung oleh Buttondown.</a>
+                </p>
+            </form>
+        </div>
+    </div>
+</div>
