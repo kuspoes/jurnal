@@ -20,10 +20,20 @@ npm run build
 npx eleventy
 ```
 
-Karena ```css``` mempergunakan ```tailwindcss``` maka sebelum ```push``` ke Github, ```style.css``` perlu dikecilkan ukurannya.
+Jika saat menambahkan artikel/*post* atau mengubah/memerlukan *lib* dari Tailwindcss, pastikan untuk mem*build* ulang Tailwindcss terlebih dahulu.
+
+```sh
+npm run tw
+```
+
+Karena ```css``` nantinya memakai semua *class*  ```tailwindcss``` yang menyebabkan ukuran menjadi besar, maka sebelum ```push``` ke Github, ```style.css``` perlu dikecilkan ukurannya.
 
 ``` sh
 postcss tailwind.css -o css/style.css
+
+# atau
+
+npm run purge
 ```
 
 # Local Live Server

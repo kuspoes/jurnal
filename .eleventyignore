@@ -1,5 +1,6 @@
 tailwind.css
 tailwind.config.js
+postcss.config.js
 README.md
 baca/*.draft.njk
 log.txt

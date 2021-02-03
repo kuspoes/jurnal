@@ -3,5 +3,6 @@ node_modules/
 package-lock.json
 tailwind.css
 tailwind.config.js
+postcss.config.js
 *.draft.njk
 log.txt
