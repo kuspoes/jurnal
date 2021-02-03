@@ -20,7 +20,7 @@ Ini adalah buku ketiga dari [Simpleman](https://twitter.com/SimpleM81378523) set
 
 *Setting* waktu dalam Janur Ireng terjadi sebelum Sewu Dino. Janur Ireng menjelaskan latar belakang kenapa santet Sewu Dino dikirimkan kepada keluarga Karsa.
 
-Kita akan mengikuti kisah yang dialami dan dituturkan oleh Sugik. Seorang lelaki yang 	&ldquo;dijebak&rdquo; bekerja di keluarga Arjo Kuncoro seorang juragan kaya raya. Sugik ditugaskan menjadi sopir dan pelayan Sabdo Kuncoro, anak hasil perselingkuhan. Arjo Kuncoro sendiri sudah memiliki keluarga resmi dengan seorang istri dan 3 orang anak, salah satunya adalah Intan Kuncoro.
+Kita akan mengikuti kisah yang dialami dan dituturkan oleh Sugik. Seorang lelaki yang 	&ldquo;dijebak&rdquo; untuk bekerja di keluarga Arjo Kuncoro seorang juragan kaya raya. Sugik ditugaskan menjadi sopir dan pelayan Sabdo Kuncoro, anak hasil perselingkuhan. Arjo Kuncoro sendiri sudah memiliki keluarga resmi dengan seorang istri dan 3 orang anak, salah satunya adalah Intan Kuncoro.
 
 Arjo Kuncoro merupakan salah satu dari Trah Pitoe, dan dianggap sebagai salah satu keluarga terkuat dan memiliki *ingon - ingon* yang disebut sebagai Canguksongo.
 
@@ -28,11 +28,11 @@ Arjo Kuncoro merupakan salah satu dari Trah Pitoe, dan dianggap sebagai salah sa
 
 2 anak lelaki Arjo yaitu Pras Anum dan Batra Kuncoro ternyata tidak mampu menjadi pewaris yang bisa menjadi medium bagi turunnya Canguksongo, dan sosok yang dipilih oleh Canguksono adalah Sabdo Kuncoro. Hal ini membuat kedua pemuda itu kecewa dan marah cemburu kepada Sabdo. Sedangkan Intan Kuncoro menjadi bersimpati dan jatuh hati kepada Sabdo.
 
-Sabdo kemudian harus menjalani banyak ritual untuk menjadi *the next* Canguksongo di dalam keluarga Kuncoro. Meskipun dalam hati Sabdo sebenarnya benci kepada Arjo karena telah menyebabkan kedua orang tuanya mati. Dalam ritual - ritual tersebut, Sabdo harus berubah menjadi hewan kambing berwarna hitam (Bokolono) yang kemudian akan dibunuh oleh Arjo. 
+Sabdo kemudian harus menjalani banyak ritual untuk menjadi *the next* Canguksongo di dalam keluarga Kuncoro. Meskipun dalam hati Sabdo sebenarnya benci kepada Arjo karena telah menyebabkan kedua orang tuanya mati, mau tidak mau Sabdo harus menuruti. Dalam ritual - ritual tersebut, Sabdo harus berubah menjadi hewan kambing berwarna hitam (Bokolono) yang kemudian akan dibunuh oleh Arjo. 
 
  <p class="sidenote">Bagaimana cara Arjo membunuh Sabdo tujuannya adalah untuk membunuh musuhnya, dimana musuh - musuhnya akan mati dengan cara seperti cara Arjo membunuh Sabdo (dalam bentuk kambing).</p>
 
-Hal ini terjadi berulang kali dan semakin membuat Sabdo benci kepada Arjo. Karena ini Sabdo memutuskan untuk menyingkirkan Arjo dengan cara bekerja sama dengan beberapa Keluarga Trah Pitoe yang merupakan &ldquo;musuh&rdquo; dari Arjo.
+Hal ini terjadi berulang kali dan semakin membuat Sabdo benci kepada Arjo. Karena itu Sabdo memutuskan untuk menyingkirkan Arjo dengan cara bekerja sama dengan beberapa Keluarga Trah Pitoe yang merupakan &ldquo;musuh&rdquo; dari Arjo.
 
 Di lain hal ternyata Sabdo melakukan hubungan terlarang dengan Intan Kuncoro yang membuat Intan hamil. Dan kemudian diputuskan bahwa Sabdo harus menikahi Intan.
 
@@ -42,7 +42,7 @@ Yang selamat dari santet ini adalah Sabdo dan Sugik (yang ternyata dialah yang m
 
 Sabdo akhirnya melarikan diri dengan dendam kepada keluarga Karsa yang telah mengkhianati janji dan menyebabkan Intan dan calon banyinya mati. Sedangkan Sugik kemudian menjadi sopir di kediaman mbah Karsa, sekaligus mencari perlindungan.
 
-Sabdo kemudian entah bagaimana caranya berhasil menguasai santet Sewu Dino dan mengirimkan ke keluarga Karsa sebagai balas dendam.
+Sabdo entah bagaimana caranya berhasil menguasai santet Sewu Dino dan mengirimkan ke keluarga Karsa sebagai balas dendam.
 
 ### Catatan
 
