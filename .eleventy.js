@@ -5,6 +5,7 @@ const lazyImagesPlugin = require('eleventy-plugin-lazyimages');
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
+const htmlmin = require('html-minifier')
 
 module.exports = function(eleventyConfig) {
 	// tanggal & waktu
@@ -37,4 +38,16 @@ module.exports = function(eleventyConfig) {
 
 	// rss
 	eleventyConfig.addPlugin(pluginRss);
+
+	eleventyConfig.addTransform("htmlmin", function (content, outputPath) {
+		if (outputPath.endsWith(".html")) {
+			let minified = htmlmin.minify(content, {
+				useShortDoctype: true,
+				removeComments: true,
+				collapseWhitespace: true
+			});
+			return minified;
+		}
+		return content;
+	});
 };
