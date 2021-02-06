@@ -44,7 +44,7 @@ Beberapa bulan kemudian. Mayat - mayat mereka ditemukan terkubur di sekitaran ta
 
 40 tahun kemudian.
 
-Seorang detektif partikelir dan seorang pecinta astrologi **Kiyoshi Mitarai* mendapatkan seorang klien yang mengklaim mempunya bukti kuat yang berhubungan dengan kasus pembunuhan Heikichi dan 6 orang putrinya. Bukti tersebut adalah pengakuan rahasia seorang petugas kepolisian yang menangani kasus pembunuhan Kazue Kanemoto.
+Seorang detektif partikelir dan seorang pecinta astrologi **Kiyoshi Mitarai** mendapatkan seorang klien yang mengklaim mempunya bukti kuat yang berhubungan dengan kasus pembunuhan Heikichi dan 6 orang putrinya. Bukti tersebut adalah pengakuan rahasia seorang petugas kepolisian yang menangani kasus pembunuhan Kazue Kanemoto.
 
 Apa isi pengakuan, siapakah pembunuhnya, dan bagaimana cara serta motifnya? 
 
