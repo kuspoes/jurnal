@@ -17,7 +17,9 @@
     rating: 5
     beli: https://www.bukukita.com/Buku-Novel/Mistery-Thriller/104734-The-Tokyo-Zodiac-Murders-Pembunuhan-Zodiac-Tokyo.html
     dimana: 'Bukukita'
-    tags: baca
+    tags: 
+        - baca
+        - jurnal
 ---
 
 Tahun 1936 (dalam periode Showa) setelah Perang Dunia ke-2, seorang pelukis tua sekaligus *playboy* bernama **Heikichi Umezawa** tergila - gila dengan astrologi dan kimia memiliki sosok perempuan khayalannya yang diberi nama **Azoth**.
@@ -58,8 +60,8 @@ Buku ini sangat mengasyikkan namun perlu kesabaran dalam membacanya.
 
 Di awal saja pembaca langsung disuguhi isi dari catatan Heikichi yang cukup membingungkan dan membuat kepayahan membaca karena terlalu banyak hal yang mengerikan dan fakta yang dipaksa masuk ke dalam pikiran.
 
-Novel ini bagi pecinta kisah detektif, misteri, dan thriller adalah buku yang mengasyikkan. Tidak tanggung - tanggung, novel ini sudah menjadi inspirasi beberapa penulis cerita/manga detektif, salah satunya adalah [Detective Kindaichi : Alchemy Murder's](https://www.bukalapak.com/p/hobi-koleksi/buku/komik/12hamll-jual-kindaichi-alchemy-murder-case-1-2?from=list-product&pos=13).
+Novel ini bagi pecinta kisah detektif, misteri, dan thriller adalah buku yang mengasyikkan. Tidak tanggung - tanggung, novel ini sudah menjadi inspirasi beberapa penulis cerita/manga detektif, salah satunya adalah [Detective Kindaichi Case File: Alchemy Murder's](https://www.bukalapak.com/p/hobi-koleksi/buku/komik/12hamll-jual-kindaichi-alchemy-murder-case-1-2?from=list-product&pos=13).
 
- <p class="sidenote">Oleh beberapa *fans* kisah detektif, Seizi Yokomizo penulis cerita Kindaichi dituduh telah melakukan plagiat di Case ini.</p>
+ <p class="sidenote">Oleh beberapa penggemar kisah detektif, Seizi Yokomizo penulis cerita Kindaichi dituduh telah melakukan plagiat di Case ini.</p>
 
 Novel ini keren, perlu dibaca berulang kali agar paham (motif dan caranya). Saya sangat merekomendasikan Novel ini.
