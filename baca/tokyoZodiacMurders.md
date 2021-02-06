@@ -30,7 +30,7 @@ Saat sedang mengerjakan lukisan terakhirnya yaitu Aries, Heikichi dibunuh dengan
 
 Dalam pemeriksaan TKP, ditemukan catatan Heikichi yang menyebutkan bahwa untuk menciptakan Azoth maka dia perlu untuk memutilasi bagian - bagian tubuh dari 2 orang putrinya, 2 putri tirinya (dari total 3 orang), dan 2 putri anak adiknya. Kemudian menggabungkan bagian - bagian yang dipotong untuk menjadi 1 bentuk tubuh sempurna yang dianggap sebagai Azoth.
 
- <p class="sidenote">Heikichi memiliki 3 orang putri tiri, salah satunya bernama <b>Kazue Kanemoto</b>. Namun Kazue tidak masuk hitungan calon Azoth karena sudah tidak lagi perawan.</p>
+Heikichi memiliki 3 orang putri tiri, salah satunya bernama <b>Kazue Kanemoto</b>. Namun Kazue tidak masuk hitungan calon Azoth karena sudah tidak lagi perawan.
 
  <p class="sidenote">Bentuk - bentuk potongan tubuh bagian mana yang diincar digambar di sampul novel ini dan setiap pembunuhan harus dilakukan dengan senjata dan dikubur di struktur berbahan dasar unsur kimia berbeda (tambang dll).</p>
 
