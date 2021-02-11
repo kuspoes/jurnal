@@ -1,4 +1,5 @@
 {%include 'layouts/header.njk' %}
+<div class="js-toc w-1/2 font-sans text-base text-gray-600 object-left bg-red-100"></div>
 {%include 'layouts/menu.njk' %}
 <article class="text-artikel mx-auto">
     <header class="mt-16 md:mt-40 mb-12 md:mb-24">
@@ -15,7 +16,9 @@
             <div class="font-semibold text-base md:text-xl md:mb-2 text-gray-400">{{ ringkasan }}</div>
         </div>
     </header>
+    <div class="js-toc-content">
     {{ content | safe }}
+    </div>
 </article>
 {%include 'layouts/subs.njk' %}
 {%include 'layouts/footer.njk' %}

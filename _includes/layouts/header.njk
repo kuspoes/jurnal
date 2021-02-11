@@ -6,9 +6,9 @@
     <title>{{ title or metadata.title }}</title>
     <link rel="stylesheet" href="{{ '/css/style.css' | url }}">
     <link rel="stylesheet" href="{{ '/css/fonts.css' | url }}">
+    {% if toc %}<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.11.1/tocbot.css">{% endif %}
     <link rel="shortcut icon" href="{{ '/favicon.ico' | url }}" type="image/x-icon">
     <link rel="alternate" type="application/rss+xml" title="Subscribe to Kusaeni Jurnal" href="https://kusaeni.com/feed.xml" />
-
 </head>
 {% if '/subs' in page.url %}
 <body id="top" class="bg-gray-100 font-sans text-lg md:text-xl">

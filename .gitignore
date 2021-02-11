@@ -5,4 +5,5 @@ tailwind.css
 tailwind.config.js
 postcss.config.js
 *.draft.njk
+*.draft.md
 log.txt
