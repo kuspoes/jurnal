@@ -1,6 +1,7 @@
 ---
     layout: /isi/buku.njk
     title : 'Janur Ireng'
+    date: 14/02/2021
     coverImg : 'https://ik.imagekit.io/hjse9uhdjqd/tr:n-cover/buku/janurIreng_aSww35pkIg4.jpg'
     penulis: 'Simpleman'
     genre: 
@@ -13,7 +14,9 @@
     rating: 3
     beli: https://shopee.co.id/bukune
     dimana: 'Bukune Store di Shopee'
-    tags: baca
+    tags: 
+     - baca
+     - jurnal
 ---
 
 Ini adalah buku ketiga dari [Simpleman](https://twitter.com/SimpleM81378523) setelah KKN di Desa Penari dan [Sewu Dino](https://kusaeni.com/baca/sewudino/) dan merupakan buku ke 2 dari serie saga Trah Pitoe atau legenda 7 keluarga yang memperebutkan puncak kehormatan dan kekayaan.
