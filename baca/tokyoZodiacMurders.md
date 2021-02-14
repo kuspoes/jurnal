@@ -1,7 +1,7 @@
 ---
     layout: /isi/buku.njk
     title : 'Tokyo Zodiac Murder'
-    date: 11/02/2021
+    date: 2021-02-11
     ringkasan: 'Plot Pembunuhan yang Sempurna'
     coverImg : 'https://ik.imagekit.io/hjse9uhdjqd/tr:n-cover/buku/tokyoZodiac_63UXUNXEd.jpg'
     penulis: 'Soji Shimada'
