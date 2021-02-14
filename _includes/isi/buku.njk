@@ -39,7 +39,7 @@
             </div>
             <div class="flex flex-row">
                 <dt class="w-1/4">Ringkasan</dt>
-                <dd class="ml-10">{{ resensi | safe }}</dd>
+                <dd class="ml-10">{{ resensi | mdParse | safe }}</dd>
             </div>
             <div class="flex flex-row">
                 <dt class="w-1/4">Beli</dt>

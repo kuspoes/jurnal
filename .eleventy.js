@@ -5,7 +5,9 @@ const lazyImagesPlugin = require('eleventy-plugin-lazyimages');
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
-const htmlmin = require('html-minifier')
+const htmlmin = require('html-minifier');
+const MarkdownIt = require('markdown-it');
+const { configFunction } = require('eleventy-plugin-lazyimages');
 
 module.exports = function(eleventyConfig) {
 	// tanggal & waktu
@@ -28,8 +30,15 @@ module.exports = function(eleventyConfig) {
 		breaks: false,
 		linkify: true
 	});
+
 	eleventyConfig.setLibrary("md", markdownLibrary);
-	
+	eleventyConfig.addFilter('mdParse', function(resensi) {
+		let mdp = new markdownIt({
+			html: true
+		});
+		return mdp.render(resensi)
+	})
+
 	eleventyConfig.addPlugin(lazyImagesPlugin);
 	
 	// syntax highlighting
