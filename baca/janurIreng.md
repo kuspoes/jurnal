@@ -2,6 +2,7 @@
     layout: /isi/buku.njk
     title : 'Janur Ireng'
     date: 2021-02-14
+    ringkasan: 'Awal mula petaka yang dinanti'
     coverImg : 'https://ik.imagekit.io/hjse9uhdjqd/tr:n-cover/buku/janurIreng_aSww35pkIg4.jpg'
     penulis: 'Simpleman'
     genre: 
