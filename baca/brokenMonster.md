@@ -18,4 +18,5 @@
     tags: baca
 ---
 
-Saya sedang mencari motivasi dan waktu luang untuk membacanya
+Saya sedang mencari motivasi dan waktu luang untuk membacanya. 
+

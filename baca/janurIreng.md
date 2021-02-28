@@ -28,7 +28,7 @@ Kita akan mengikuti kisah yang dialami dan dituturkan oleh Sugik. Seorang lelaki
 
 Arjo Kuncoro merupakan salah satu dari Trah Pitoe, dan dianggap sebagai salah satu keluarga terkuat dan memiliki *ingon - ingon* yang disebut sebagai Canguksongo.
 
- <p class="sidenote">Canguksongo adalah sejenis bangsa lelembut yang mengabdi kepada manusia dengan imbalan. Dalam kisah ini disebutkan bahwa Canguksongo meminta imbalan bersetubuh dengan istri Arjo Kuncoro</p>.
+ <p class="sidenote">Canguksongo adalah sejenis bangsa lelembut yang mengabdi kepada manusia dengan imbalan. Dalam kisah ini disebutkan bahwa Canguksongo meminta imbalan bersetubuh dengan istri Arjo Kuncoro</p>
 
 2 anak lelaki Arjo yaitu Pras Anum dan Batra Kuncoro ternyata tidak mampu menjadi pewaris yang bisa menjadi medium bagi turunnya Canguksongo, dan sosok yang dipilih oleh Canguksono adalah Sabdo Kuncoro. Hal ini membuat kedua pemuda itu kecewa dan marah cemburu kepada Sabdo. Sedangkan Intan Kuncoro menjadi bersimpati dan jatuh hati kepada Sabdo.
 
