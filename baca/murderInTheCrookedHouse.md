@@ -66,6 +66,6 @@ Setelah membaca Tokyo Zodiac Murders, saya langsung menjadi *fans* kisah detekti
 
 Salah satu yang menarik adalah *setting* latarnya yang mundur ke era tahun 40 - 80 an, dimana teknologi pada waktu itu belum berkembang pesat dan teknik psikologi kriminal yang hebat membuat seri Mitarai ini benar - benar luar biasa.
 
-Hanya saja dibandingkan dengan Tokyo Zodiac Murder's, kasus Pembunuhan di Rumah Miring ini kurang memiliki *ending* yang dramatis. Bahkan pelakunya langsung saja menyerah dikesempatan pertama dituduh.
+Hanya saja dibandingkan dengan Tokyo Zodiac Murder's, kasus Pembunuhan di Rumah Miring ini kurang memiliki *ending* yang dramatis. Bahkan pelakunya langsung saja menyerah dikesempatan tuduhn pertama. Selain itu Mitarai hanya hadir disekitar 2 babak akhir dan semua berlangsung begitu cepat.
 
 Dan ini mejadi satu - satunya kekurangan di buku ini.
