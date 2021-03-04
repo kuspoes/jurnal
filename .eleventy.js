@@ -48,7 +48,6 @@ module.exports = function(eleventyConfig) {
 	// rss
 	eleventyConfig.addPlugin(pluginRss);
 
-    /*
 	eleventyConfig.addTransform("htmlmin", function (content, outputPath) {
 		if (outputPath.endsWith(".html")) {
 			let minified = htmlmin.minify(content, {
@@ -59,6 +58,6 @@ module.exports = function(eleventyConfig) {
 			return minified;
 		}
 		return content;
-    }); */
+    });
 
 };
