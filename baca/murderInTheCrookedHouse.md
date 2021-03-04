@@ -60,7 +60,7 @@ Ditengah ketakutan para penghuni rumah dan keputusasaan para pertugas kepolisian
 
 Namun tak lama berselang jatuhlah korban ketiga, Masaki ditemukan tewas dikamarnya sementara semua orang sedang berkumpul di ruang makan.
 
-Jadi siapakah pembununya? Apakah ada orang asing yang menyusup ke dalam rumah? Atau benarkah sang Golem yang melakukan pembunuhan? Lalu apa hubungannya dengan Rumah Miring?
+Jadi siapakah pembunuhnya? Apakah ada orang asing yang menyusup ke dalam rumah? Atau benarkah sang Golem yang melakukan pembunuhan? Lalu apa hubungannya dengan Rumah Miring?
 
 ## Catatan
 
