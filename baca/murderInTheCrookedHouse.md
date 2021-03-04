@@ -54,7 +54,7 @@ Kumi yang tidak bisa tidur karena marah akibat hinaan dari Keiko tiba - tiba men
 
 Keesokan harinya saat sarapan pagi Ueda tidak hadir, dan ketika diperiksa oleh Sasaki ditemukan Ueda tewas terbunuh di dalam ruangan tertutup dan ditemukan boneka Golem yang berserakan di luar kamarnya.
 
-Polisi datang untuk melakukan penyelidikan dan pengamanan, meski begitu sang pembunuh tetap beraksi. Namun dengan cepat para polisi itu putus asa ketika pembunuhan kedua terjadi bahkan pada saat para polisi mengawasi. Eikichi menjadi korban berikutnya, lagi - lagi dengan kodisi pembunuhan di ruangan tertutup dan ditemukan bukti kasus yang menyangkut ke Golem.
+Polisi datang untuk melakukan penyelidikan dan pengamanan, namun dengan cepat para polisi itu putus asa ketika pembunuhan kedua terjadi bahkan pada saat para polisi mengawasi. Eikichi menjadi korban berikutnya, lagi - lagi dengan kodisi pembunuhan di ruangan tertutup dan ditemukan bukti kasus yang menyangkut ke Golem.
 
 Ditengah ketakutan para penghuni rumah dan keputusasaan para pertugas kepolisian, Kantor Pusat Kepolisian mengirim detektif eksentrik untuk membantu. Datanglah Kiyoshi Mitarai untuk membantu. 
 
