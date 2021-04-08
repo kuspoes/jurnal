@@ -1,4 +1,4 @@
-const moment = require('moment');
+const moment = require('moment'); // berat, ganti ke luxon atau pakai vanilla js
 moment.locale('id');
 const markdownIt = require('markdown-it');
 const lazyImagesPlugin = require('eleventy-plugin-lazyimages');
@@ -6,8 +6,6 @@ const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const htmlmin = require('html-minifier');
-const MarkdownIt = require('markdown-it');
-const { configFunction } = require('eleventy-plugin-lazyimages');
 
 module.exports = function(eleventyConfig) {
 	// tanggal & waktu
@@ -39,15 +37,19 @@ module.exports = function(eleventyConfig) {
 		return mdp.render(resensi)
 	})
 
+	// lazy images
 	eleventyConfig.addPlugin(lazyImagesPlugin);
 	
 	// syntax highlighting
 	eleventyConfig.addPlugin(syntaxHighlight);
+
+	// syntax highlighting
 	eleventyConfig.addPlugin(eleventyNavigationPlugin);
 
 	// rss
 	eleventyConfig.addPlugin(pluginRss);
 
+	// compress html output
 	eleventyConfig.addTransform("htmlmin", function (content, outputPath) {
 		if (outputPath.endsWith(".html")) {
 			let minified = htmlmin.minify(content, {
