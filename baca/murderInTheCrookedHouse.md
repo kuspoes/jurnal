@@ -20,7 +20,7 @@
         - jurnal
 ---
 
-**Ini** adalah buku ke dua dari Soji Shimada dan kisah seorang dukun yang mengaku sebagai detektif bernama Kiyoshi Mitarai. Seperti halnya  [Tokyo Zodiac Murders](https://kusaeni.com/baca/tokyoZodiacMurders) *setting* waktunya melampu pada medio tahun 1984.
+**Ini** adalah buku ke dua dari Soji Shimada dan kisah seorang dukun yang mengaku sebagai detektif bernama Kiyoshi Mitarai. Seperti halnya  [Tokyo Zodiac Murders](https://kusaeni.com/baca/tokyoZodiacMurders) *setting* waktunya melampau pada medio tahun 1984.
 
  <p class="sidenote"><i>Setting</i> waktu yang melampau ini banyak dipakai Shoji Shimada. Salah satu alasannya mungkin adalah di waktu lampau teknologi belum berkembang  pesat, sehingga analis dari sang detektif lebih diutamakan dibandingkan  bantuan dari alat/perangkat. Sebagai contoh di Tokyo Zodiac Murders, seandainya pada masa itu tes DNA sudah ada, maka kasus ini tidak akan menunggu 30 tahun untuk diselesaikan.</p>
 

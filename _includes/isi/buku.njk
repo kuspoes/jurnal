@@ -23,7 +23,13 @@
                 <dt>Penulis</dt>
                 <dd>{{ penulis }}</dd>
                 <dt>Genre</dt>
-                <dd>{{ genre }}</dd>
+                <dd>
+                    {%- for g in genre | slice(1) %}
+                        {%- for daftar in g %}
+                            <span class="pr-2">{{ daftar | trim }}</span>
+                        {%- endfor %}
+                    {%- endfor %}
+                </dd>
                 <dt>Format</dt>
                 <dd>{{ format }}</dd>
                 <dt>ISBN</dt>
