@@ -59,6 +59,6 @@ Buku ini tidak sekelam Janur Ireng dan lebih enak untuk dibaca. Kualitas tulisan
 
 Ranjat Kembang semakin membuka fakta Trah Pitu yang konon info dari Simpleman cerita ini didasari dari kisah nyata, meski ceritanya berdiri sendiri dan Simpleman menggabungkannya menjadi satu. Rencana total buku dari Trah Pitu ada 5 buku, setelah Sewu Dino, Janur Ireng, dan Ranjat Kembang masih ada 2 buku lagi yang akan terbit, termasuk 3 Kudro lagi yang belum dimunculkan.
 
-Buku ini cukup bagus meski tidak istimewa, hanya saja kualitas *cover* bukunya mengecewakan. Untuk buku yang *pre-order*nya dihargai Rp. 143.000,00 (termasuk ongkir), *cover* buku ini tipis sekali dan lucunya saat dibiarkan di atas meja *cover*nya tergulung seperti rambut wig para bangsawan parlemen Inggris pada jaman Victoria.
+Buku ini cukup bagus meski tidak istimewa, hanya saja kualitas *cover* bukunya mengecewakan. Untuk buku yang *pre-order*nya dihargai Rp. 143.000,00 (termasuk ongkir), *cover* buku ini tipis sekali dan lucunya saat dibiarkan di atas meja, *cover*nya tergulung seperti rambut wig para bangsawan parlemen Inggris pada jaman Victoria.
 
 Bukune perlu memperhatikan hal ini.
