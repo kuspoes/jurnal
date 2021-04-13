@@ -54,6 +54,25 @@
         </dl>
     </div>
     {{ content | safe }}
+
+    <div class="flex flex-row mt-10 border-t">
+        <div class="flex w-1/2 mt-4">
+            {% if bacaSelanjutnya.url %}
+            <p class="text-base pl-10">
+                <strong>Selanjutnya</strong>:
+                <a class="next" href="{{ bacaSelanjutnya.url }}">{{ bacaSelanjutnya.data.title }}</a>
+            </p>
+            {% endif %}
+        </div>
+        <div class="flex w-1/2 mt-4">
+            {% if bacaSebelumnya.url %}
+            <p class="text-base text-right pr-10">
+                <strong>Sebelumnya</strong>:
+                <a class="previous" href="{{ bacaSebelumnya.url }}">{{ bacaSebelumnya.data.title }}</a>
+            </p>
+            {% endif %}
+        </div>
+    </div>
 </article>
 {%include 'layouts/subs.njk' %}
 {%include 'layouts/footer.njk' %}

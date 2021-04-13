@@ -49,6 +49,21 @@ module.exports = function(eleventyConfig) {
 	// rss
 	eleventyConfig.addPlugin(pluginRss);
 
+	// Next Prev 
+	eleventyConfig.addCollection("baca", function (collection) {
+		const coll = collection.getFilteredByTag("baca");
+
+		for (let i = 0; i < coll.length; i++) {
+			const bacaSebelumnya = coll[i - 1];
+			const bacaSelanjutnya = coll[i + 1];
+
+			coll[i].data["bacaSebelumnya"] = bacaSebelumnya;
+			coll[i].data["bacaSelanjutnya"] = bacaSelanjutnya;
+		}
+
+		return coll;
+	});
+
 	// compress html output
 	eleventyConfig.addTransform("htmlmin", function (content, outputPath) {
 		if (outputPath.endsWith(".html")) {
