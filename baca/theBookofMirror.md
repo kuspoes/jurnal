@@ -1,5 +1,5 @@
 ---
-    layout: /isi/buku.njk
+    layout: isi/buku.njk
     title : 'The Book of Mirror'
     ringkasan: 'Ingatan Bisa Membunuh. Pret!'
     coverImg : 'https://ik.imagekit.io/hjse9uhdjqd/tr:n-cover/buku/theBookofMirror_jT0omfTP3rg.jpg'

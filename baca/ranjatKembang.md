@@ -1,7 +1,7 @@
 ---
     layout: isi/buku.njk
     title : 'Ranjat Kembang'
-    date: Last Modified
+    date: 2021-04-11
     ringkasan: 'Rogot Nyowo sudah dimulai!. Semua anggota Trah Pitu mulai menyiapkan tumbal untuk menyelamatkan diri dari Kudro'
     coverImg : 'https://ik.imagekit.io/hjse9uhdjqd/tr:n-cover/buku/ranjat-kembang_EQYxzyfUuZx.jpg'
     penulis: 'Simpleman'

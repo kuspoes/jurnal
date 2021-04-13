@@ -1,5 +1,5 @@
 ---
-    layout: /isi/buku.njk
+    layout: isi/buku.njk
     title : 'Broken Monster'
     ringkasan: 'In broken City, there is a broken monster'
     coverImg : 'https://ik.imagekit.io/hjse9uhdjqd/tr:n-cover/buku/brokenMonster_a9AQJlUpw.jpg'

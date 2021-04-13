@@ -1,5 +1,5 @@
 ---
-    layout: /isi/buku.njk
+    layout: isi/buku.njk
     title : 'Tokyo Zodiac Murder'
     date: 2021-02-11
     ringkasan: 'Plot Pembunuhan yang Sempurna'

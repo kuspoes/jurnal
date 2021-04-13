@@ -1,5 +1,3 @@
-const moment = require('moment'); // berat, ganti ke luxon atau pakai vanilla js
-moment.locale('id');
 const markdownIt = require('markdown-it');
 const lazyImagesPlugin = require('eleventy-plugin-lazyimages');
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
@@ -8,13 +6,15 @@ const pluginRss = require("@11ty/eleventy-plugin-rss");
 const htmlmin = require('html-minifier');
 
 module.exports = function(eleventyConfig) {
-	// tanggal & waktu
-	eleventyConfig.addFilter('dateIso', date => {
-		return moment(date).toISOString();
-	});
-
 	eleventyConfig.addFilter('dateReadable', date => {
-		return moment(date).utc().format('LL');
+		return new Date(date).toLocaleDateString(
+			'id-ID',
+			{
+				year: 'numeric',
+				month: 'long',
+				day: 'numeric'
+			}
+		)
 	});
 
 	// statik

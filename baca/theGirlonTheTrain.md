@@ -1,5 +1,5 @@
 ---
-    layout: /isi/buku.njk
+    layout: isi/buku.njk
     title : 'The Girl on The Train'
     ringkasan: Kau tak mengenalnya, tapi dia tahu semua tentangmu
     coverImg : 'https://ik.imagekit.io/hjse9uhdjqd/tr:n-cover/buku/theGirlonTheTrain_CLNvFQVVzzN5.jpg'

@@ -17,7 +17,7 @@
     </header>
 
     <div class="w-99 mx-auto flex">
-        <img class="mb-12 shadow-md" width="176" height="320" src="{{ coverImg }}" alt="The Name of Rose">
+        <img class="mb-12 shadow-md" width="176" height="320" src="{{ coverImg }}" alt="{{ title }} ">
         <div class="flex-1 w-1/2 pl-8 text-lg text-gray-700">
             <dl>
                 <dt>Penulis</dt>
@@ -26,7 +26,7 @@
                 <dd>
                     {%- for g in genre | slice(1) %}
                         {%- for daftar in g %}
-                            <span class="pr-2">{{ daftar | trim }}</span>
+                            <span class="pr-2">{{ daftar }}</span>
                         {%- endfor %}
                     {%- endfor %}
                 </dd>

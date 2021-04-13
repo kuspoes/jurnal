@@ -1,5 +1,5 @@
 ---
-    layout: /isi/buku.njk
+    layout: isi/buku.njk
     title : 'Janur Ireng'
     date: 2021-02-14
     ringkasan: 'Awal mula petaka yang dinanti'

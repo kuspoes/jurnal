@@ -1,5 +1,5 @@
 ---
-    layout: /isi/buku.njk
+    layout: isi/buku.njk
     title : 'Origin'
     date: 2021-02-20
     ringkasan: 'Darimana dan mau kemana tujuan manusia diciptakan?'
