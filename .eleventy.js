@@ -52,7 +52,6 @@ module.exports = function(eleventyConfig) {
 	// Next Prev 
 	eleventyConfig.addCollection("baca", function (collection) {
 		const coll = collection.getFilteredByTag("baca");
-		const post = collection.getFilteredByTag("jurnal");
 
 		for (let i = 0; i < coll.length; i++) {
 			const bacaSebelumnya = coll[i - 1];
@@ -61,6 +60,12 @@ module.exports = function(eleventyConfig) {
 			coll[i].data["bacaSebelumnya"] = bacaSebelumnya;
 			coll[i].data["bacaSelanjutnya"] = bacaSelanjutnya;
 		}
+		return coll;
+	});
+
+	// Next Prev 
+	eleventyConfig.addCollection("jurnal", function (collection) {
+		const post = collection.getFilteredByTag("jurnal");
 
 		for (let i = 0; i < post.length; i++) {
 			const prevPost = post[i - 1];
@@ -69,8 +74,7 @@ module.exports = function(eleventyConfig) {
 			post[i].data["prevPost"] = prevPost;
 			post[i].data["nextPost"] = nextPost;
 		}
-
-		return (coll, post);
+		return post;
 	});
 
 	// compress html output

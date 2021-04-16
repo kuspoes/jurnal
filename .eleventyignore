@@ -2,5 +2,6 @@ tailwind.css
 tailwind.config.js
 postcss.config.js
 README.md
-baca/*.draft.njk
+baca/*.draft.md
+jurnal/*.draft.md
 log.txt
