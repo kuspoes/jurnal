@@ -55,4 +55,4 @@ Salah satu yang menarik menjadi catatan adalah tentang jadual ibadah 4 para biar
     Saya tidak ingin berdebat tentang hal ini. Hanya membandingkan secara pribadi jadual ibadah para biarawan pada masa itu dengan (umat Nasrani) saat ini agak berbeda. Jadual ibadah menurut novel ini bisa dilihat di bagian <a href="https://ik.imagekit.io/hjse9uhdjqd/buku/ilnomedellarosa-pray-schedule-min_NzUrWLwNfR.jpg">Note - halaman xx - xxi</a>.
  </p>
 
-Di akhir, saya sepakat dengan Ustadz Salimafillah bahwa novel ini adalah salah satu masterpiece dan sangat bagus untuk dikoleksi. 
+Di akhir, saya sepakat dengan Ustadz Salimafillah bahwa novel ini adalah salah satu masterpiece dan sangat bagus untuk dikoleksi.
