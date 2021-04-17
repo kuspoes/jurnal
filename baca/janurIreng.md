@@ -7,6 +7,7 @@
     penulis: 'Simpleman'
     genre: 
         - Horror
+        - Jawa
     format: 'Papperback 295  halaman'
     bahasa: 'Bahasa Indonesia, Bahasa Jawa'
     isbn: '978-602-220-364-3'
@@ -24,7 +25,7 @@ Ini adalah buku ketiga dari [Simpleman](https://twitter.com/SimpleM81378523) set
 
 *Setting* waktu dalam Janur Ireng terjadi sebelum Sewu Dino. Janur Ireng menjelaskan latar belakang kenapa santet Sewu Dino dikirimkan kepada keluarga Karsa.
 
-Kita akan mengikuti kisah yang dialami dan dituturkan oleh Sugik. Seorang lelaki yang 	&ldquo;dijebak&rdquo; untuk bekerja di keluarga Arjo Kuncoro seorang juragan kaya raya. Sugik ditugaskan menjadi sopir dan pelayan Sabdo Kuncoro, anak hasil perselingkuhan. Arjo Kuncoro sendiri sudah memiliki keluarga resmi dengan seorang istri dan 3 orang anak, salah satunya adalah Intan Kuncoro.
+Kita akan mengikuti kisah yang dialami dan dituturkan oleh Sugik. Seorang lelaki yang &ldquo;dijebak&rdquo; untuk bekerja di keluarga Arjo Kuncoro seorang juragan kaya raya. Sugik ditugaskan menjadi sopir dan pelayan Sabdo Kuncoro, anak hasil perselingkuhan. Arjo Kuncoro sendiri sudah memiliki keluarga resmi dengan seorang istri dan 3 orang anak, salah satunya adalah Intan Kuncoro.
 
 Arjo Kuncoro merupakan salah satu dari Trah Pitoe, dan dianggap sebagai salah satu keluarga terkuat dan memiliki *ingon - ingon* yang disebut sebagai Canguksongo.
 
