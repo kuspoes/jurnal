@@ -2,6 +2,7 @@
     layout: isi/buku.njk
     title : 'Broken Monster'
     ringkasan: 'In broken City, there is a broken monster'
+    keywords: 'Broken Monster, Lauren Beukes, Novel'
     coverImg : 'https://ik.imagekit.io/hjse9uhdjqd/tr:n-cover/buku/brokenMonster_a9AQJlUpw.jpg'
     penulis: 'Lauren Beukes'
     genre: 

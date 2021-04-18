@@ -2,6 +2,7 @@
     layout: isi/buku.njk
     title : 'The Name of Rose'
     ringkasan: '7 Deaths in 7 Days and Nights of Apocalyptic Terror'
+    keywords: 'The Name of Rose, Il nome dela Rosa, Umberto Eco, Misteri'
     coverImg : 'https://ik.imagekit.io/hjse9uhdjqd/tr:n-cover/buku/theNameofRose_1ED96afur.jpg'
     penulis: 'Umberto Eco'
     genre: 

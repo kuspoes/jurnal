@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Kusaeni tulisan, catatan, dan fotografi">
-    <meta name="keywords" content="kusaeni, tulisan, weblogkus, fotografi, landscape, kus, baca, goodreads">
+    <meta name="keywords" content="{{ keywords }}">
     <meta name="author" content="Kusaeni">
     <link href="https://twitter.com/kuspoes" rel="me">
     <title>{{ title or metadata.title }}</title>
@@ -15,14 +15,14 @@
     <link rel="alternate" type="application/rss+xml" title="Subscribe to Kusaeni Jurnal" href="https://kusaeni.com/feed.xml" />
 </head>
 {% if '/subs' in page.url %}
-<body id="top" class="bg-gray-100 font-sans text-lg md:text-xl">
+<body id="top" class="font-sans text-lg bg-gray-100 md:text-xl">
 {% else %}
-<body id="top" class="font-sserif text-lg md:text-xl">
+<body id="top" class="text-lg font-sserif md:text-xl">
     {% if '/foto' in page.url %}
         <div id="halaman" class="w-full mx-auto">
     {% elif  '/baca' in page.url %}
-        <div id="halaman" class="w-full md:w-4/5 mx-auto">
+        <div id="halaman" class="w-full mx-auto md:w-4/5">
     {% else %}
-        <div id="halaman" class="w-full md:w-100 mx-auto">
+        <div id="halaman" class="w-full mx-auto md:w-100">
     {% endif %}
 {% endif %}

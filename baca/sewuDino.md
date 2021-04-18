@@ -2,6 +2,7 @@
     layout: isi/buku.njk
     title : 'Sewu Dino'
     ringkasan: 'Pertempuran antar keluarga dari Trah Pitu yang memakan banyak korban'
+    keywords: 'Sewu Dino, Janur Ireng, Ranjat Kembang, Trah Pitu, Simpleman, Horor, Santet'
     coverImg : 'https://ik.imagekit.io/hjse9uhdjqd/tr:n-cover/buku/sewuDino_lV8ZEwbP7.jpg'
     penulis: 'Simpleman'
     genre: 
