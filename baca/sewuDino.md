@@ -19,4 +19,21 @@
     tags: baca
 ---
 
-Sedang dalam proses penulisan.
+
+Menceritakan tentang Sri, seorang gadis yatim dari keluarga miskin yang menjadi pelayanan di sebuah warung makan. Pada suatu hari Sri ditawari untuk bekerja di rumah seorang bernama Mbah Karsa Atmojo seorang juragan kaya raya.
+
+Selain Sri ada 2 gadis lagi yang diterima menjadi pembantu yaitu Erna dan Dini.
+
+ <p class="sidenote">Syarat untuk diterima menjadi pembantu adalah gadis yang lahir di malam Jum'at Kliwon. Mereka mendapatkan gaji yang besar (pada saat itu) 5 juta rupiah per bulan</p>
+
+Diantar Sugik sopir keluarga Atmojo, 3 gadis itu dibawa ke sebuah pondok terpencil di tengah hutan yang dijaga oleh Mbah Tamin seorang dukun abdi Keluarga Atmojo.
+
+Di pondok inilah terungkap apa pekerjaan yang harus dilakukan oleh Sri, Erna, dan Dini yaitu menjadi perawat dari cucu perempuan keturunan terakhir dari keluarga Atmojo yaitu Dela Atmojo yang sedang sakit, tertidur, dan nyawanya dalam ancaman.
+
+Lalu apakah penyakit yang diderita oleh Dela Atmojo? Kenapa tidak dibawa ke rumah sakit tapi malah disembunyikan di pondok di tengah hutan? Apakah Sewu Dino itu?
+
+### Catatan
+
+Ini adalah buku pertama dari *Universe* Trah Pitu. Isi buku ini sebenarnya sudah ditulis dalam *threads* [Simpleman di Twitter](https://twitter.com/SimpleM81378523/status/1158380946728427520?ref_src=twsrc%5Etfw) dengan judul yang sama. Namun di buku ini ditambahkan beberapa *chapters* dan detil - detil yang tidak ada di *threads*.
+
+Buku kedua adalah [Janur Ireng](https://kusaeni.com/baca/janurireng/) dan dilanjut [Ranjat Kembang](https://kusaeni.com/baca/ranjatkembang/) sebagai buku ketiga.
