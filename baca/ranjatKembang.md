@@ -63,6 +63,8 @@ Ranjat Kembang semakin membuka fakta Trah Pitu yang konon info dari Simpleman ce
 
 Buku ini cukup bagus meski tidak istimewa, hanya saja kualitas *cover* bukunya mengecewakan. Untuk buku yang *pre-order*nya dihargai Rp. 143.000,00 (termasuk ongkir), *cover* buku ini tipis sekali dan lucunya saat dibiarkan di atas meja, *cover*nya tergulung seperti rambut wig para bangsawan parlemen Inggris pada jaman Victoria.
 
+ <h3 class="text-xl font-semibold text-gray-500"><span class="text-red-500">UPDATE</span></h3>
+
 Selain kualitas cover yang jelek, bonus poster buku ini juga cukup menggelikan. Saya mendapatkan bonus 2 poster sebagai hadiah *preorder* yaitu :
 1. Poster kelopak bunga Wijayakusuma yang berisi nama - nama keluarga para abdi Keluarga Atmojo/Trah Angkara,
 2. Poster gambar seorang gadis yang rambutnya dibelit sulur - sulur bunga Wijayakusuma. 
