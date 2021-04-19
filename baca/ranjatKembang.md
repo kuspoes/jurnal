@@ -2,6 +2,7 @@
     layout: isi/buku.njk
     title : 'Ranjat Kembang'
     date: 2021-04-11
+    update: true
     ringkasan: 'Rogot Nyowo sudah dimulai!. Semua anggota Trah Pitu mulai menyiapkan tumbal untuk menyelamatkan diri dari Kudro'
     keywords: 'Ranjat Kembang, Sewu Dino, Janur Ireng, Simpleman, Trah Pitu, Padusan Pituh, Lemah Layat, Mira, Dela Atmojo'
     coverImg : 'https://ik.imagekit.io/hjse9uhdjqd/tr:n-cover/buku/ranjat-kembang_EQYxzyfUuZx.jpg'
@@ -62,4 +63,10 @@ Ranjat Kembang semakin membuka fakta Trah Pitu yang konon info dari Simpleman ce
 
 Buku ini cukup bagus meski tidak istimewa, hanya saja kualitas *cover* bukunya mengecewakan. Untuk buku yang *pre-order*nya dihargai Rp. 143.000,00 (termasuk ongkir), *cover* buku ini tipis sekali dan lucunya saat dibiarkan di atas meja, *cover*nya tergulung seperti rambut wig para bangsawan parlemen Inggris pada jaman Victoria.
 
-Bukune perlu memperhatikan hal ini.
+Selain kualitas cover yang jelek, bonus poster buku ini juga cukup menggelikan. Saya mendapatkan bonus 2 poster sebagai hadiah *preorder* yaitu :
+1. Poster kelopak bunga Wijayakusuma yang berisi nama - nama keluarga para abdi Keluarga Atmojo/Trah Angkara,
+2. Poster gambar seorang gadis yang rambutnya dibelit sulur - sulur bunga Wijayakusuma. 
+
+Poster ke-2 ini yang menurut saya tidak pas atau tidak sesuai. Novel Ranjat Kembang ini berisi kisah horor mencekam, namun lucunya gambar dalam poster ini digambar seperti di manga bergenre romantis, meski gambar tersebut terkesan sang gadis sedang bersedih. Tidak ada seramnya sama sekali.
+
+Menurut saya Bukune perlu memperhatikan hal ini.
