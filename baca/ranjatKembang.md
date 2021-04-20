@@ -39,7 +39,7 @@ Dela mulai mendapatkan mimpi - mimpi tentang riwayat Keluarga Atmojo dan kekejam
 
 Mbah Tamin seorang dukun abdi dari Keluarga Atmojo dibantu oleh Mayang!, berusaha memaksa Dela untuk mau mejadi induk baru dari 2 iblis itu dengan pelbagai cara, halus maupun dengan penuh kekejaman.
 
- <p class="sidenote">Mayang adalah tokoh yang unik dan misterius di <i>universe</i> Trah Pitu, dia memiliki hubungan dan hadir di setiap cara untuk membangkitkan Kudro diantaranya Dela, Mira, Agus, dan Bayu. Entah apa tujuannya sampai sekarang belum dibuka</p>.
+ <p class="sidenote">Mayang adalah tokoh yang unik dan misterius di <i>universe</i> Trah Pitu, dia memiliki hubungan dan hadir di setiap cara untuk membangkitkan Kudro diantaranya Dela, Mira, Agus, dan Bayu. Entah apa tujuannya sampai sekarang belum dibuka</p>
 
 ### Padusan Pituh
 
