@@ -4,6 +4,7 @@ const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const htmlmin = require('html-minifier');
+const readerBar = require('eleventy-plugin-reader-bar');
 
 module.exports = function(eleventyConfig) {
 	eleventyConfig.addFilter('dateReadable', date => {
@@ -76,6 +77,9 @@ module.exports = function(eleventyConfig) {
 		}
 		return post;
 	});
+
+    // reader bar
+    eleventyConfig.addPlugin(readerBar)
 
 	// compress html output
 	eleventyConfig.addTransform("htmlmin", function (content, outputPath) {
