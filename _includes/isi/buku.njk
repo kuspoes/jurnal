@@ -1,5 +1,5 @@
 {%include 'layouts/header.njk' %}
-    <div class="p-8 mx-auto mb-10 font-sans text-base bg-gray-100 w-99 rounded-md">
+
 {%include 'layouts/menu.njk' %}
 <article id="reviewBuku" class="mx-auto text-artikel">
     <header class="mt-16 mb-12 md:mt-40 md:mb-24">
@@ -12,12 +12,12 @@
             </div>
             {% endif %}
             <h1 class="mb-2 text-xl font-bold tracking-tight md:text-5xl">{{ title }}</h1>
-            <h1 class="mb-2 text-xl font-bold tracking-tight md:text-5xl">{{ title }}</h1>
             <div class="text-base font-semibold text-gray-400 md:text-xl md:mb-2">{{ ringkasan }}</div>
+        </div>
     </header>
 
     <div class="flex mx-auto w-99">
-    <div class="flex mx-auto w-99">
+        <img class="mb-12 shadow-md" width="176" height="320" src="{{ coverImg  }}" alt="{{ title  }} ">
         <div class="flex-1 w-1/2 pl-8 text-lg text-gray-700">
             <dl>
                 <dt>Penulis</dt>
@@ -37,7 +37,7 @@
             </dl>
         </div>
     </div>
-    <div class="p-8 mx-auto mb-10 font-sans text-base bg-gray-100 w-99 rounded-md">
+
     <div class="p-8 mx-auto mb-10 font-sans text-base bg-gray-100 w-99 rounded-md">
             <div class="flex flex-row">
                 <dt class="w-1/4">Rating</dt>
@@ -54,25 +54,23 @@
         </dl>
     </div>
     {{ content | safe }}
-
     <div class="flex flex-row mt-10 border-t">
         <div class="flex w-1/2 mt-4">
+            {% if bacaSebelumnya.url %}
             <p class="pl-10 text-base">
-            <p class="text-base pl-10">
-            <p class="pl-10 text-base">
-                <a class="next" href="{{ bacaSelanjutnya.url }}">{{ bacaSelanjutnya.data.title }}</a>
+                ⇚ <a class="next" href="{{ bacaSebelumnya.url }}">{{ bacaSebelumnya.data.title }}</a>
             </p>
             {% endif %}
         </div>
         <div class="flex w-1/2 mt-4">
+            {% if bacaSelanjutnya.url %}
             <p class="pr-10 text-base text-right">
-            <p class="text-base text-right pr-10">
-            <p class="pr-10 text-base text-right">
-                <a class="previous" href="{{ bacaSebelumnya.url }}">{{ bacaSebelumnya.data.title }}</a>
-            </p>
+            <a class="previous" href="{{ bacaSelanjutnya.url }}">{{ bacaSelanjutnya.data.title }}</a>
+             ⇛ </p>
             {% endif %}
         </div>
     </div>
 </article>
+
 {%include 'layouts/subs.njk' %}
 {%include 'layouts/footer.njk' %}

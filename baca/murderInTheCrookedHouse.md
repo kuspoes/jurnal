@@ -1,5 +1,5 @@
 ---
-    layout: /isi/buku.njk
+    layout: isi/buku.njk
     title : 'Murder in The Crooked House'
     date: 2021-03-04
     update: true
