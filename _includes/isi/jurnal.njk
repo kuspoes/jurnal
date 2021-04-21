@@ -1,20 +1,19 @@
 {%include 'layouts/header.njk' %}
 <div class="object-left w-1/2 font-sans text-base text-gray-600 bg-red-100 js-toc"></div>
 {%include 'layouts/menu.njk' %}
-<article class="text-artikel mx-auto">
-    <header class="mt-16 md:mt-40 mb-12 md:mb-24">
-        <div class="font-sans my-8">
+<article class="mx-auto text-artikel">
+    <header class="mt-16 mb-12 md:mt-40 md:mb-24">
+        <div class="my-8 font-sans">
             {% if '/jurnal' in page.url %}
-            <div class="text-sm md:text-lg text-gray-500">{{ date | dateReadable }}
+            <div class="text-sm text-gray-500 md:text-lg">{{ date | dateReadable }}
                 {% if update %}<a class="bersih" href="#update">
-                    <span class="bg-red-100 text-red-700 font-sans font-semibold text-xs md:text-sm px-2 inline-block uppercase rounded-md
-                ml-2">updated</span></a>
+                    <span class="inline-block px-2 ml-2 font-sans text-xs font-semibold text-red-700 uppercase bg-red-100 md:text-sm rounded-md">updated</span></a>
                 {% endif %}
             </div>
             {% endif %}
-            <h1 class="text-xl md:text-5xl tracking-tight font-bold mb-2">{{ title }}</h1>
-            <div class="font-semibold text-base md:text-xl md:mb-2 text-gray-400">{{ ringkasan }}</div>
-        </div>
+            <h1 class="mb-2 text-xl font-bold tracking-tight md:text-5xl">{{ title }}</h1>
+            <h1 class="mb-2 text-xl font-bold tracking-tight md:text-5xl">{{ title }}</h1>
+            <div class="text-base font-semibold text-gray-400 md:text-xl md:mb-2">{{ ringkasan }}</div>
     </header>
     <div class="js-toc-content">
     {{ content | safe }}
@@ -25,7 +24,7 @@
         <div class="flex w-1/2 mt-4">
             {% if nextPost.url %}
             <p class="text-base pl-10">
-                <strong>Selanjutnya</strong>:
+            <p class="pl-10 text-base">
                 <a class="next" href="{{ nextPost.url }}">{{ nextPost.data.title }}</a>
             </p>
             {% endif %}
@@ -33,7 +32,7 @@
         <div class="flex w-1/2 mt-4">
             {% if prevPost.url %}
             <p class="text-base text-right pr-10">
-                <strong>Sebelumnya</strong>:
+            <p class="pr-10 text-base text-right">
                 <a class="previous" href="{{ prevPost.url }}">{{ prevPost.data.title }}</a>
             </p>
             {% endif %}
