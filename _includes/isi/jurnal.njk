@@ -12,7 +12,6 @@
             </div>
             {% endif %}
             <h1 class="mb-2 text-xl font-bold tracking-tight md:text-5xl">{{ title }}</h1>
-            <h1 class="mb-2 text-xl font-bold tracking-tight md:text-5xl">{{ title }}</h1>
             <div class="text-base font-semibold text-gray-400 md:text-xl md:mb-2">{{ ringkasan }}</div>
     </header>
     <div class="js-toc-content">
@@ -23,7 +22,7 @@
     <div class="flex flex-row mt-10 border-t">
         <div class="flex w-1/2 mt-4">
             {% if nextPost.url %}
-            <p class="text-base pl-10">
+            <p class="pl-10 text-base">
             <p class="pl-10 text-base">
                 <a class="next" href="{{ nextPost.url }}">{{ nextPost.data.title }}</a>
             </p>
@@ -31,7 +30,7 @@
         </div>
         <div class="flex w-1/2 mt-4">
             {% if prevPost.url %}
-            <p class="text-base text-right pr-10">
+            <p class="pr-10 text-base text-right">
             <p class="pr-10 text-base text-right">
                 <a class="previous" href="{{ prevPost.url }}">{{ prevPost.data.title }}</a>
             </p>

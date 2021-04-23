@@ -81,8 +81,7 @@ module.exports = function(eleventyConfig) {
     // reader bar
     eleventyConfig.addPlugin(readerBar)
 
-	// compress html output
-
+    // compress html output
     eleventyConfig.addTransform("htmlmin", function (content, outputPath) {
 		if (outputPath.endsWith(".html")) {
 			let minified = htmlmin.minify(content, {
@@ -93,5 +92,5 @@ module.exports = function(eleventyConfig) {
 			return minified;
 		}
 		return content;
-    });
+    }); 
 };
