@@ -72,7 +72,7 @@ Ini adalah novel misteri pembunuhan yang ditulis dengan sangat ringan. Enak diba
 dicerna. Ada 7 bab dalam buku ini yang berisi cerita - cerita setiap tersangka yang memiliki
 masalahnya sendiri - sendiri. 
 
-Dalam pelbagai kesempatan, Det. Kaga malah berusaha membantu masalah - masalah tiap - tiap tersangka. Hal inilah yang disebut dengan penyelidikan kekeluargaan yang sebenarnya menjadi alasan utama kenapa Det. Kaga sampai dimutasi ke Nihonbashi.
+Dalam pelbagai kesempatan, Det. Kaga malah berusaha membantu masalah para tersangka. Hal inilah yang disebut dengan penyelidikan kekeluargaan yang sebenarnya menjadi alasan utama kenapa Det. Kaga sampai dimutasi ke Nihonbashi.
 
 Novel ini memiliki *plot twist* yang sangat mengejutkan. Meskipun *clue*nya sangat jelas, namun
 tetap saja pengungkapan pelaku pembunuhan dan motifnya cukup bertolak belakang dengan apa yang

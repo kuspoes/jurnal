@@ -1,7 +1,7 @@
 ---
     layout: isi/buku.njk
     title : 'Karung Nyawa'
-    date: Last Modified
+    date: 2020-08-17
     ringkasan: 'Semua bermula saat ditemukan mayat perempuan tanpa kepala'
     keywords: 'Karung Nyawa, Bojonegoro, horor, Haditha Mohamand, Bukune'
     coverImg : 'https://ik.imagekit.io/hjse9uhdjqd/tr:n-cover/buku/karungNyawa_5-MZyq9Lp.jpg'

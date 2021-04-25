@@ -13,7 +13,7 @@
         - Jawa
         - Horor
     format: 'Papperback 310 halaman'
-    bahasa: 'Bahasa Indonesia'
+    bahasa: 'Bahasa Indonesia, Bahasa Jawa'
     isbn: '978-602-220-399-5'
     tahun: 2021
     resensi: 'Setelah memakan ratusan nyawa, perseteruan Trah Pitu menjalar begitu jauh, meneror keturunan termuda dan orang - orang di luar lingkaran keluarga. Buku ini membawa 3 pintu cerita yaitu Padusan Pituh (Mira), Lemah Layat (Agus), dan Kembang Wijayakusuma (Dela Atmojo)'

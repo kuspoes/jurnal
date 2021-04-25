@@ -1,7 +1,7 @@
 ---
     layout: isi/buku.njk
     title : 'Tokyo Zodiac Murder'
-    date: 2021-02-11
+    date: 2018-09-11
     ringkasan: 'Plot Pembunuhan yang Sempurna'
     keywords: 'Soji Shimada, Tokyo Zodiac Murder, Misteri, Novel, Mitarai'
     coverImg : 'https://ik.imagekit.io/hjse9uhdjqd/tr:n-cover/buku/tokyoZodiac_63UXUNXEd.jpg'
