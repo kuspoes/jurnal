@@ -50,7 +50,10 @@ module.exports = function(eleventyConfig) {
 	// rss
 	eleventyConfig.addPlugin(pluginRss);
 
-	// Next Prev 
+    // reader bar
+    eleventyConfig.addPlugin(readerBar)
+
+    // Next Prev 
 	eleventyConfig.addCollection("baca", function (collection) {
 		const coll = collection.getFilteredByTag("baca");
 
@@ -78,9 +81,6 @@ module.exports = function(eleventyConfig) {
 		return post;
 	});
 
-    // reader bar
-    eleventyConfig.addPlugin(readerBar)
-
     // compress html output
     eleventyConfig.addTransform("htmlmin", function (content, outputPath) {
 		if (outputPath.endsWith(".html")) {
@@ -92,5 +92,5 @@ module.exports = function(eleventyConfig) {
 			return minified;
 		}
 		return content;
-    }); 
+    });
 };

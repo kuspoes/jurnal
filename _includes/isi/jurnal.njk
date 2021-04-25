@@ -18,26 +18,22 @@
     {{ content | safe }}
     {% readerBar "2px", "", "#e63946" %}
     </div>
-
     <div class="flex flex-row mt-10 border-t">
         <div class="flex w-1/2 mt-4">
             {% if nextPost.url %}
             <p class="pl-10 text-base">
-            <p class="pl-10 text-base">
-                <a class="next" href="{{ nextPost.url }}">{{ nextPost.data.title }}</a>
+            ⇚ <a class="next" href="{{ nextPost.url }}">{{ nextPost.data.title }}</a>
             </p>
             {% endif %}
         </div>
         <div class="flex w-1/2 mt-4">
             {% if prevPost.url %}
             <p class="pr-10 text-base text-right">
-            <p class="pr-10 text-base text-right">
-                <a class="previous" href="{{ prevPost.url }}">{{ prevPost.data.title }}</a>
-            </p>
+            <a class="previous" href="{{ prevPost.url }}">{{ prevPost.data.title }}</a>
+             ⇛ </p>
             {% endif %}
         </div>
     </div>
-
 </article>
 {%include 'layouts/subs.njk' %}
 {%include 'layouts/footer.njk' %}
