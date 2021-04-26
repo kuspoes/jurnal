@@ -39,21 +39,18 @@ membeli bukunya.
 
 Det. Kaga adalah detektif polisi yang baru dipindah tugaskan ke Kantor Polisi Nihonbashi, Tokyo dan
 dianggap sebagai *anak baru* dan cenderung diremehkan di lingkungannya. Namun sebenarnya dia adalah
-seorang detektif berpengalaman yang sudah sering memecahkan kasus kriminal sebelaumnya.
-
-Bahkan hal ini yang kemudian membuat dia dimutasi ke Nihonbashi.
+seorang detektif berpengalaman yang sudah sering memecahkan kasus kriminal sebelumnya.
 
 Seorang wanita setengah baya ditemukan tewas dengan leher tercekik seutas tali di dalam kamar
-apatemennya. Korban ditemukan oleh sahabatnya yang sudah membuat janji untuk bertemu di apatemennya.
+apatemennya. Korban ditemukan oleh sahabatnya yang sudah membuat janji untuk bertemu di apartemennya.
 
-Korban adalah penghuni baru apartemen ini dan tidak memiliki kenalan dan keluarga di lingkungan
+Korban adalah penghuni baru dan tidak memiliki kenalan dan keluarga di lingkungan
 Nihobashi. 
 
 Det. Kaga dilibatkan dalam penyelidikan kasus ini dengan tugas sebagai pemandu untuk penyelidik
 senior dari kantor kepolisian pusat Tokyo.
 
-Penyelidikan mengalami jalan buntu, meski identitas korban sudah ditemukan dan keluarga dikabari.
-Namun pelaku dan motifnya masih gelap.
+Penyelidikan mengalami jalan buntu, meski identitas korban sudah ditemukan dan keluarga dikabari, namun pelaku dan motifnya masih gelap.
 
 Det. Kaga disela waktu tugasnya menjadi *guide* bagi Detektif dari kantor pusat kepolisian,
 melakukan penyelidikan sendiri dengan metode yang unik. Metode pendekatan kekeluargaan.
