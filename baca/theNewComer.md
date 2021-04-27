@@ -5,7 +5,7 @@
     update: true
     ringkasan: 'Seorang wanita terbunuh di Nihonbashi, seorang detektif datang menyelidikinya dan
     ditemukan banyak orang bisa menjadi tersangka'
-    keywords: 'Keigo Higashino, Kaga, Detektif, Pembunuhan di Nihonbashi, The Newcomer, Jepang, Misteri, Novel'
+    keywords: 'Keigo Higashino, Kaga, detektif, Pembunuhan di Nihonbashi, The Newcomer, Jepang, Misteri, Novel'
     coverImg : 'https://ik.imagekit.io/hjse9uhdjqd/tr:n-cover/buku/thenewcomer_jNnlkJXcfB.jpg'
     penulis: 'Keigo Higashino'
     genre: 
@@ -25,6 +25,7 @@
     dimana: Bukukita
     tags: 
         - baca
+        - jurnal
 ---
 
 Ini adalah buku pertama Keigo Higashino yang saya baca, saya terpengaruh setelah membaca
@@ -37,7 +38,7 @@ membeli bukunya.
 
 ### Detektif Kaga dan pembunuhan di Nihonbashi
 
-Det. Kaga adalah detektif polisi yang baru dipindah tugaskan ke Kantor Polisi Nihonbashi, Tokyo dan
+Kaga adalah detektif polisi yang baru dipindah tugaskan ke Kantor Polisi Nihonbashi, Tokyo dan
 dianggap sebagai *anak baru* dan cenderung diremehkan di lingkungannya. Namun sebenarnya dia adalah
 seorang detektif berpengalaman yang sudah sering memecahkan kasus kriminal sebelumnya.
 
@@ -47,15 +48,15 @@ apatemennya. Korban ditemukan oleh sahabatnya yang sudah membuat janji untuk ber
 Korban adalah penghuni baru dan tidak memiliki kenalan dan keluarga di lingkungan
 Nihobashi. 
 
-Det. Kaga dilibatkan dalam penyelidikan kasus ini dengan tugas sebagai pemandu untuk penyelidik
+Kaga dilibatkan dalam penyelidikan kasus ini dengan tugas sebagai pemandu untuk penyelidik
 senior dari kantor kepolisian pusat Tokyo.
 
 Penyelidikan mengalami jalan buntu, meski identitas korban sudah ditemukan dan keluarga dikabari, namun pelaku dan motifnya masih gelap.
 
-Det. Kaga disela waktu tugasnya menjadi *guide* bagi Detektif dari kantor pusat kepolisian,
+Disela waktu tugasnya menjadi *guide* bagi detektif dari kantor pusat kepolisian,
 melakukan penyelidikan sendiri dengan metode yang unik. Metode pendekatan kekeluargaan.
 
-Dari penyelidikan Det. Kaga inilah kemudian ditemukan fakta bahwa hampir semua orang yang tinggal
+Dari penyelidikan  Kaga inilah kemudian ditemukan fakta bahwa hampir semua orang yang tinggal
 dan bekerja dikawasan Nihonbashi memiliki motif sebagai pelaku.
 
 Lalu siapakah pembunuh sebenarnya?
@@ -67,9 +68,9 @@ mengabaikan buku ini hampir selama 7 hari dan baru membacanya kemudian.
 
 Ini adalah novel misteri pembunuhan yang ditulis dengan sangat ringan. Enak dibaca dan mudah
 dicerna. Ada 7 bab dalam buku ini yang berisi cerita - cerita setiap tersangka yang memiliki
-masalahnya sendiri - sendiri. 
+masalahnya sendiri - sendiri.
 
-Dalam pelbagai kesempatan, Det. Kaga malah berusaha membantu masalah para tersangka. Hal inilah yang disebut dengan penyelidikan kekeluargaan yang sebenarnya menjadi alasan utama kenapa Det. Kaga sampai dimutasi ke Nihonbashi.
+Dalam pelbagai kesempatan, Kaga malah berusaha membantu masalah para tersangka. Hal inilah yang disebut dengan penyelidikan kekeluargaan yang sebenarnya menjadi alasan utama kenapa  Kaga sampai dimutasi ke Nihonbashi.
 
 Novel ini memiliki *plot twist* yang sangat mengejutkan. Meskipun *clue*nya sangat jelas, namun
 tetap saja pengungkapan pelaku pembunuhan dan motifnya cukup bertolak belakang dengan apa yang
@@ -80,5 +81,9 @@ Novel misteri yang sangat bagus, saya memberikan [nilai 5 dari 5](/baca/rating) 
 Saya sudah membeli buku kedua dari Higashino berjudul Malice.
 
 Seperti serial [Detektif Mitarai](/baca/tokyoZodiacMurders) dari Soji Shimada, versi *life actions*
-dari Det. Kaga juga sudah ada filmnya, salah satunya adalah The Wing of Kirin yang ditanyangkan 2012
+dari  Kaga juga sudah ada filmnya, salah satunya adalah The Wing of Kirin yang ditayangkan 2012
 silam.
+
+Seperti kebanyakan adaptasi novel ke film, ada banyak kekurangan atau ketidaksesuaiannya. Salah satu
+yang menonjol adalah tentang sikap Kaga yang difilm digambarkan dingin dan serius, padahal di novel
+Kaga dikesankan sebagai polisi yang ramah dan disukai banyak orang.
