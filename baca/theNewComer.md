@@ -75,6 +75,10 @@ Novel ini memiliki *plot twist* yang sangat mengejutkan. Meskipun *clue*nya sang
 tetap saja pengungkapan pelaku pembunuhan dan motifnya cukup bertolak belakang dengan apa yang
 pembaca fikirkan.
 
-Novel misteri yang sangat bagus, saya memberikan [nilai 5 dari 5](http://localhost:8080/baca/rating) untuk novel ini.
+Novel misteri yang sangat bagus, saya memberikan [nilai 5 dari 5](/baca/rating) untuk novel ini.
 
 Saya sudah membeli buku kedua dari Higashino berjudul Malice.
+
+Seperti serial [Detektif Mitarai](/baca/tokyoZodiacMurders) dari Soji Shimada, versi *life actions*
+dari Det. Kaga juga sudah ada filmnya, salah satunya adalah The Wing of Kirin yang ditanyangkan 2012
+silam.
