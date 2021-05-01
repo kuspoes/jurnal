@@ -3,7 +3,7 @@
     title : 'The Newcomer'
     date: 2021-04-25
     update: true
-    ringkasan: 'Seorang wanita terbunuh di Nihonbashi, seorang detektif datang menyelidikinya dan
+    ringkasan: 'Seorang wanita terbunuh di Nihonbashi, detektif datang menyelidikinya dan
     ditemukan banyak orang bisa menjadi tersangka'
     keywords: 'Keigo Higashino, Kaga, detektif, Pembunuhan di Nihonbashi, The Newcomer, Jepang, Misteri, Novel'
     coverImg : 'https://ik.imagekit.io/hjse9uhdjqd/tr:n-cover/buku/thenewcomer_jNnlkJXcfB.jpg'
@@ -83,6 +83,7 @@ Saya sudah membeli buku kedua dari Higashino berjudul Malice.
 Seperti serial [Detektif Mitarai](/baca/tokyoZodiacMurders) dari Soji Shimada, versi *life actions*
 dari  Kaga juga sudah ada filmnya, salah satunya adalah The Wing of Kirin yang ditayangkan 2012
 silam.
+
 
 Seperti kebanyakan adaptasi novel ke film, ada banyak kekurangan atau ketidaksesuaiannya. Salah satu
 yang menonjol adalah tentang sikap Kaga yang difilm digambarkan dingin dan serius, padahal di novel
