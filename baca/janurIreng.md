@@ -59,3 +59,5 @@ Kisah ini lebih gelap dan berat dibandingkan Sewu Dino. Saya perlu menghabiskan 
 Kendala terbesar adalah banyaknya tokoh dan kejadian yang membuat harus membongkar ingatan, harus membuka lagi untaian twit di Twitter Simpleman karena sebagian kisah sudah ditulis disana.
 
 Saya tidak terlalu suka dengan kisah yang ini, nilai 3 dari 5 sudah cukup bagus. Saya membaca buku ini dan tidak terlalu ingin mengulang membaca lagi.
+
+{% related "ranjat kembang" %}

@@ -26,7 +26,12 @@ module.exports = function(eleventyConfig) {
 
 	eleventyConfig.addLiquidShortcode("related", async function (judul) {
 		try {
-			const response = await fetch('https://kusaeni.com/baca/data.json');
+			const response = await fetch('https://kusaeni.com/baca/data.json', {
+				method: 'GET',
+				headers: {
+					'Content-Type': 'application/json'
+				}
+			});
 			const data = await response.json();
 			const relasih = function (buku, judul) {
 				const index = buku.findIndex(function (novel, index) {
@@ -36,10 +41,10 @@ module.exports = function(eleventyConfig) {
 		};
 			const hasilData = await relasih(data, judul);
 			var rese = hasilData.resensi.substr(0, 200)
-			return `<div class="flex flex-row border rounded-xl w-99 mx-auto mb-6 p-6 font-sans">
+			return `<div class="flex flex-row border-2 rounded-xl w-99 mx-auto mb-6 p-6 font-sans">
 						<img class="shadow-md" src="${hasilData.coverImg}" width="110" height="130" >
 						<div class="flex-1 w-1/2 pl-8 text-lg text-gray-700"> 
-							<b><a href="${hasilData.url}">${hasilData.title}</a> </b>
+							<b><a href="${hasilData.url}" title="${hasilData.title}">${hasilData.title}</a> </b>
 							<dl>
 								<dt>${hasilData.penulis} </d> 
 								<dd>${rese} ...</dd>
