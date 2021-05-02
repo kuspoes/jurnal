@@ -5,6 +5,7 @@ const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const htmlmin = require('html-minifier');
 const readerBar = require('eleventy-plugin-reader-bar');
+const fetch = require('node-fetch');
 
 module.exports = function(eleventyConfig) {
 	eleventyConfig.addFilter('dateReadable', date => {
@@ -23,16 +24,37 @@ module.exports = function(eleventyConfig) {
 	eleventyConfig.addPassthroughCopy("js");
 	eleventyConfig.addPassthroughCopy("favicon.ico");
 
-	/*
-    eleventyConfig.addPairedShortcode("terkait", function(deskripsi, cover, judul, url) {
-        return `<div class="flex flex-row mb-4">
-                <div>ini cover : ${cover}</div>
-                <div>ini judul: ${judul}</div>
-                <div>ini url: ${url}</div>
-                <div>ini desk: ${deskripsi}</div>
-            </div>`;
-    });
-	*/
+	eleventyConfig.addLiquidShortcode("related", async function (judul) {
+		try {
+			const response = await fetch('https://kusaeni.com/baca/data.json');
+			const data = await response.json();
+			const relasih = function (buku, judul) {
+				const index = buku.findIndex(function (novel, index) {
+					return novel.title.toLowerCase() === judul.toLowerCase()
+				})
+			return buku[index]
+		};
+			const hasilData = await relasih(data, judul);
+			var rese = hasilData.resensi.substr(0, 200)
+			return `<div class="flex flex-row border rounded-xl w-99 mx-auto mb-6 p-6 font-sans">
+						<img class="shadow-md" src="${hasilData.coverImg}" width="110" height="130" >
+						<div class="flex-1 w-1/2 pl-8 text-lg text-gray-700"> 
+							<b><a href="${hasilData.url}">${hasilData.title}</a> </b>
+							<dl>
+								<dt>${hasilData.penulis} </d> 
+								<dd>${rese} ...</dd>
+							</dl>
+						</div>
+					</div>`;
+		} catch (err) {
+			console.log(err)
+		}
+		const print = async () => {
+			const p = await hasilData;
+			console.log(p)
+		};
+		print()
+	});
 
 	// markdownIt
 	let markdownLibrary = markdownIt({
@@ -92,6 +114,7 @@ module.exports = function(eleventyConfig) {
 		return post;
 	});
 
+
     // compress html output
     eleventyConfig.addTransform("htmlmin", function (content, outputPath) {
 		if (outputPath.endsWith(".html")) {
@@ -103,5 +126,6 @@ module.exports = function(eleventyConfig) {
 			return minified;
 		}
 		return content;
-    }); 
+    });
+
 };

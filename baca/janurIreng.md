@@ -24,6 +24,8 @@
 
 Ini adalah buku ketiga dari [Simpleman](https://twitter.com/SimpleM81378523) setelah KKN di Desa Penari dan [Sewu Dino](https://kusaeni.com/baca/sewudino/) dan merupakan buku ke 2 dari serie saga Trah Pitoe atau legenda 7 keluarga yang memperebutkan puncak kehormatan dan kekayaan.
 
+{% related "sewu dino" %}
+
 *Setting* waktu dalam Janur Ireng terjadi sebelum Sewu Dino. Janur Ireng menjelaskan latar belakang kenapa santet Sewu Dino dikirimkan kepada keluarga Karsa.
 
 Kita akan mengikuti kisah yang dialami dan dituturkan oleh Sugik. Seorang lelaki yang &ldquo;dijebak&rdquo; untuk bekerja di keluarga Arjo Kuncoro seorang juragan kaya raya. Sugik ditugaskan menjadi sopir dan pelayan Sabdo Kuncoro, anak hasil perselingkuhan. Arjo Kuncoro sendiri sudah memiliki keluarga resmi dengan seorang istri dan 3 orang anak, salah satunya adalah Intan Kuncoro.

@@ -27,6 +27,8 @@
 
  <p class="sidenote"><i>Setting</i> waktu yang melampau ini banyak dipakai Shoji Shimada. Salah satu alasannya mungkin adalah di waktu lampau teknologi belum berkembang  pesat, sehingga analis dari sang detektif lebih diutamakan dibandingkan  bantuan dari alat/perangkat. Sebagai contoh di Tokyo Zodiac Murders, seandainya pada masa itu tes DNA sudah ada, maka kasus ini tidak akan menunggu 30 tahun untuk diselesaikan.</p>
 
+{% related "tokyo zodiac murder" %}
+
 **Kozaburo Hamamoto** seorang pengusaha pabrik Hama Diesel yang memproduksi Mesin Diesel yang sukses dan terkemuka mengadakan acara santap malam untuk merayakan *Christmas Eves* dengan putrinya **Eiko Hamamoto** dan mengundang 8 orang tamu.
 
 Daftar tamu - tamu tersebut adalah : 

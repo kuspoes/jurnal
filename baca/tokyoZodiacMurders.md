@@ -67,3 +67,5 @@ Novel ini bagi pecinta kisah detektif, misteri, dan thriller adalah buku yang me
  <p class="sidenote">Oleh beberapa penggemar kisah detektif, Seizi Yokomizo penulis cerita Kindaichi dituduh telah melakukan plagiat di Case ini.</p>
 
 Novel ini keren, perlu dibaca berulang kali agar paham (motif dan caranya). Saya sangat merekomendasikan Novel ini.
+
+{% related "murder in the crooked house" %}

@@ -31,11 +31,15 @@ Menceritakan tentang Dela Atmojo, keturunan terakhir dari Keluarga Atmojo yang s
 
 Kisah dimulai dengan *flashback* masa kecil Dela Atmojo yang menyaksikan bagaimana ibu kandungnya mati bunuh diri dengan menembakkan pistol ke dalam mulutnya, sampai ke cerita bagaimana Dela bisa terkena santet Sewu Dino yang dilepaskan oleh [Sabdo Kuncoro](https://kusaeni.com/baca/janurireng/).
 
+{% related "sewu dino" %}
+
 Paska kematian sang Ibu maka Dela Atmojo adalah penerus tahta dari Keluarga Atmojo yang sering disebut sebagai Trah Angkara. Di dalam Keluarga Atmojo, penerus Trah Angkara mengalir dalam darah keturunan perempuan dan akan mewarisi para *ingon* Atmojo yang disebut sebagai Bonorogo dan Sengarturih.
 
  <p class="sidenote">Bonorogo dan Sengarturih adalah 2 jenis iblis/jin yang dipelihara (<i>ingon</i>) oleh Keluarga Atmojo untuk menjalankan tugas pembunuhan sekaligus perlindungan kepada keluarga Atmojo itu sendiri. Setiap keluarga di Trah Pitu memiliki *ingon* masing - masing</p>
 
 Dela mulai mendapatkan mimpi - mimpi tentang riwayat Keluarga Atmojo dan kekejaman apa yang pernah dilakukan oleh keluarga ini serta tujuan kenapa Dela harus menjadi penerus sebagai majikan baru bagi Bonoroga dan Sengarturih.
+
+{% related "janur ireng" %}
 
 Mbah Tamin seorang dukun abdi dari Keluarga Atmojo dibantu oleh Mayang!, berusaha memaksa Dela untuk mau mejadi induk baru dari 2 iblis itu dengan pelbagai cara, halus maupun dengan penuh kekejaman.
 

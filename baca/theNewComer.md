@@ -84,6 +84,7 @@ Seperti serial [Detektif Mitarai](/baca/tokyoZodiacMurders) dari Soji Shimada, v
 dari  Kaga juga sudah ada filmnya, salah satunya adalah The Wing of Kirin yang ditayangkan 2012
 silam.
 
+{% related "tokyo zodiac murder" %}
 
 Seperti kebanyakan adaptasi novel ke film, ada banyak kekurangan atau ketidaksesuaiannya. Salah satu
 yang menonjol adalah tentang sikap Kaga yang difilm digambarkan dingin dan serius, padahal di novel
