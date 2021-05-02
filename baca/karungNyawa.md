@@ -22,4 +22,8 @@
     tags: baca
 ---
 
-Sedang dalam proses penulisan.
+*Well*, saya malas sekali mengulas buku ini karena tidak suka dengan akhir cerita yang "mengenaskan" dan dengan akhir yang menggantung tidak terselesaikan.
+
+Beberapa orang menganggap *ending* yang menggantung ini adalah awal dari buku kedua, tapi saya tetap tidak suka.
+
+Saya tidak akan mengulas buku ini disini, kamu bisa membaca [ulasan yang bagus](https://kukuhgiaji.com/resensi-novel-karung-nyawa/) di blog Kukuh Giaji.

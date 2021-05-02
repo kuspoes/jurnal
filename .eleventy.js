@@ -23,6 +23,7 @@ module.exports = function(eleventyConfig) {
 	eleventyConfig.addPassthroughCopy("js");
 	eleventyConfig.addPassthroughCopy("favicon.ico");
 
+	/*
     eleventyConfig.addPairedShortcode("terkait", function(deskripsi, cover, judul, url) {
         return `<div class="flex flex-row mb-4">
                 <div>ini cover : ${cover}</div>
@@ -31,6 +32,7 @@ module.exports = function(eleventyConfig) {
                 <div>ini desk: ${deskripsi}</div>
             </div>`;
     });
+	*/
 
 	// markdownIt
 	let markdownLibrary = markdownIt({
@@ -48,7 +50,7 @@ module.exports = function(eleventyConfig) {
 	})
 
 	// lazy images
-	//eleventyConfig.addPlugin(lazyImagesPlugin);
+	eleventyConfig.addPlugin(lazyImagesPlugin);
 	
 	// syntax highlighting
 	eleventyConfig.addPlugin(syntaxHighlight);
@@ -89,7 +91,7 @@ module.exports = function(eleventyConfig) {
 		}
 		return post;
 	});
-/*
+
     // compress html output
     eleventyConfig.addTransform("htmlmin", function (content, outputPath) {
 		if (outputPath.endsWith(".html")) {
@@ -101,5 +103,5 @@ module.exports = function(eleventyConfig) {
 			return minified;
 		}
 		return content;
-    }); */
+    }); 
 };
