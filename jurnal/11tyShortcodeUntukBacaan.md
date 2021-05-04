@@ -14,7 +14,7 @@
 Di halaman [bacaan](/baca) saya ingin menampilkan relasi buku terkait dengan *review* buku yang saya tulis.
 
 Tampilan yang diinginkan adalah seperti [Twitter Cards](https://developer.twitter.com/en/docs/twitter-for-websites/cards/guides/getting-started) dengan gambar dan deskripsi. Gambarnya nanti bisa diisi dengan `coverImg`
-dari masing - masing artikel baca yang susah saya tulis.
+dari masing - masing artikel baca yang sudah saya tulis.
 
 ![related post shortcodes](https://ik.imagekit.io/hjse9uhdjqd/jurnal/relasi_baca_GZtaKDPpe.jpg)
 
@@ -69,13 +69,25 @@ permalink : /baca/data.json
 ---
 ```
 
-Saya mengambil beberapa *field* yang penting dan hendak dipakai nantinya.
+Saya mengambil beberapa *field* yang penting dan hendak dipakai nantinya. Sedangkan hasilnya adalah sebagai berikut 
+
+```json
+{
+    "title": "Sewu Dino",
+    "date": "Mon Aug 17 2020 07:00:00 GMT+0700 (Western Indonesia Time)",
+    "url": "/baca/sewuDino/",
+    "ringkasan": "Pertempuran antar keluarga dari Trah Pitu yang memakan banyak korban",
+    "penulis": "Simpleman",
+    "coverImg": "https://ik.imagekit.io/hjse9uhdjqd/tr:n-cover/buku/sewuDino_lV8ZEwbP7.jpg",
+    "resensi": "Dia adalah Dela Atmojo, anak yang harus kamu rawat sampai waktunya tiba. Ia dikirimi kutukan santet sewu dino. Santet yang sudah merenggut nyawa hampir seluruh anggota keluarga Atmojo."
+}
+```
 
 Setelah *eleventy* di `build` maka akan tersedia 1 *file* baru dengan nama `data.json` dengan *path* `/baca/data.json`. *File* inilah yang nanti akan dijadikan basis data untuk menentukan relasi artikel.
 
 ### 11ty Shortcodes
 
-Setelah basis data tersedia, selanjutnya adalah membuat fungsi dalam `javascript` untuk memanggil basis data tersebut. Disini saya mempergunakan paket `node-fetch`. Namun sebelumnya adalah menentukan bentuk dari *shortcodes* yang akan dipakai.
+Setelah basis data tersedia, selanjutnya adalah membuat fungsi dalam `javascript` untuk memanggil basis data tersebut. Disini saya mempergunakan paket `node-fetch`. Namun sebelum itu perlu menentukan bentuk dari *shortcodes* yang akan dipakai.
 
 1. Bentuk *shortcode*nya.
 Saya ingin agar bentuk *tags*nya adalah sebagai berikut :
@@ -142,7 +154,7 @@ const hasilData = await relasi(data, judul);
 console.log(hasilData)
 ```
 
-Disini *string* `judul` harus diamankan dengan membuat `judul` menjadi huruf kecil semua untuk menghindari kesalahan tipo saat mengetik judul. 
+Disini *string* `judul` harus diamankan dengan membuat `judul` menjadi huruf kecil semua `toLowerCase()` untuk menghindari kesalahan tipo saat mengetik judul. 
 
 Sampai disini jika *tags* {% raw %}`{% related "judul" %}`{% endraw %} dimasukkan ke dalam artikel, maka pada saat `build`/`serve`, *eleventy* akan mengambil  `data.json` dan meng*filter*nya berdasarkan *query* judul yang dimasukkan. Hasilnya bisa diliat di log di konsol.
 
@@ -209,8 +221,8 @@ Saya menambahkan fungsi `rese` untuk memotong karakter di `resensi` agar tidak l
 Alhamdulillah dengan fungsi *shortcodes* ini saya bisa menampilkan relasi bacaan sesuai dengan keinginan, namun ada beberapa
 hal yang perlu diperhatikan saat mempergunakan *shortcodes* ini, diantaranya :
 
-1. Untuk mengurangi kesalahan dalam *query* data berdasarkan judul, maka judul perlu dibuat `lowerCase` semua. Namun hal ini tidak menjadi solusi jika penulisan judulnya salah karena salah judul atau salah spasi,
-2. Karena harus mengambil `data.json` dan melakukan `parse` serta *query* membuat waktu *build* menjadi lebih lama, sekitar 19 - 30 ms dimana sebelumnya sekitar 9 - 17 ms.
+1. Untuk mengurangi kesalahan dalam *query* data berdasarkan judul, maka judul perlu dibuat `lowerCase` semua. Namun hal ini tidak menjadi solusi jika penulisan judulnya salah karena salah ketik atau salah spasi,
+2. Proses ini harus mengambil `data.json` dan melakukan `parse` serta *query* membuat waktu *build* menjadi lebih lama, sekitar 19 - 30 ms dimana sebelumnya sekitar 9 - 17 ms.
 
 Saya melakukan **DEBUG** `build` *eleventy* dan hasilnya butuh waktu 8,9 ms sendiri untuk membaca dan menyelesaikan eksekusi *file eleventy.js*.
 

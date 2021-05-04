@@ -6,6 +6,7 @@ const pluginRss = require("@11ty/eleventy-plugin-rss");
 const htmlmin = require('html-minifier');
 const readerBar = require('eleventy-plugin-reader-bar');
 const fetch = require('node-fetch');
+//const embedTwitter = require("eleventy-plugin-embed-twitter");
 
 module.exports = function(eleventyConfig) {
 	eleventyConfig.addFilter('dateReadable', date => {
@@ -42,21 +43,21 @@ module.exports = function(eleventyConfig) {
 			const hasilData = await relasih(data, judul);
 			var rese = hasilData.resensi.substr(0, 200)
 			return `<div class="flex flex-row border-2 rounded-xl w-99 mx-auto mb-6 p-6 font-sans">
-						<img class="shadow-md" src="${hasilData.coverImg}" width="110" height="130" >
-						<div class="flex-1 w-1/2 pl-8 text-lg text-gray-700"> 
-							<b><a href="${hasilData.url}" title="${hasilData.title}">${hasilData.title}</a> </b>
-							<dl>
-								<dt>${hasilData.penulis} </d> 
-								<dd>${rese} ...</dd>
-							</dl>
-						</div>
-					</div>`;
+				<img class="shadow-md" src="${hasilData.coverImg}" width="110" height="130" >
+				<div class="flex-1 w-1/2 pl-8 text-lg text-gray-700"> 
+					<b><a href="${hasilData.url}" title="${hasilData.title}">${hasilData.title}</a> </b>
+					<dl>
+						<dt>${hasilData.penulis} </d> 
+						<dd>${rese} ...</dd>
+					</dl>
+				</div>
+				</div>`;
 		} catch (err) {
 			console.log(err)
 		}
 		const print = async () => {
 			const p = await hasilData;
-			console.log(p)
+			//console.log(p)
 		};
 		print()
 	});
@@ -91,6 +92,9 @@ module.exports = function(eleventyConfig) {
     // reader bar
     eleventyConfig.addPlugin(readerBar)
 
+	// embed twitter
+	// eleventyConfig.addPlugin(embedTwitter);
+
     // Next Prev 
 	eleventyConfig.addCollection("baca", function (collection) {
 		const coll = collection.getFilteredByTag("baca");
@@ -118,7 +122,6 @@ module.exports = function(eleventyConfig) {
 		}
 		return post;
 	});
-
 
     // compress html output
     eleventyConfig.addTransform("htmlmin", function (content, outputPath) {
