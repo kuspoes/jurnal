@@ -3,8 +3,10 @@
     title: 'Kusaeni : tulisan dan catatan'
 ---
 
+    {% for year, jurnal in collections.postByYear %} 
+    <h2>{{ year }}</h2>
 <ol class="postlist">
-    {% for artikel in collections.jurnal | reverse %}
+    {% for artikel in jurnal | reverse %}
     <li class="plist">
         <a class="nodec" href="{{ artikel.url | url }}">
             <div class="mb-1 font-sans text-sm text-gray-600 uppercase">{{ artikel.date | dateReadable }}
@@ -20,3 +22,5 @@
     </li>
     {% endfor %}
 </ol>
+    {% endfor %}
+

@@ -176,9 +176,9 @@ return `<div class="flex">
 Karena `node-fetch` menghasilkan `promise` maka `return` perlu diakses dengan tambahan `.then()` *callback*, sehingga keseluruhan *shortcodes*nya menjadi seperti ini :
 
 ```js
-eleventyConfig.addLiquidShortcode("related", async function (judul) {
+eleventyConfig.addLiquidShortcode("related", async function(judul){
 try {
-const response = await fetch('https://kusaeni.com/baca/data.json', {
+const response = await fetch('https://kusaeni.com/baca/data.json',{
 	method: 'GET',
 	headers: {
 		'Content-Type': 'application/json'
@@ -259,6 +259,10 @@ Dengan catatan :
 {% prelated "11ty Reader Bar", "/jurnal/11tyReaderBar" %}
 Sebuah plugin shortcodes untuk menampilkan readerbar di eleventy
 {% endprelated %}
+
+*Shortcode* ini bisa juga dipergunakan untuk menggantikan *shortcodes* dengan *parse* JSON. Hanya
+saja setiap hendak menyisipkan *related books* harus mengetikkan secara manual setiap data yang
+ingin ditampilkan.
 
 ### Kesimpulan dan catatan {#kesimpulan}
 

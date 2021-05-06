@@ -7,6 +7,7 @@ const pluginRss = require("@11ty/eleventy-plugin-rss");
 const htmlmin = require('html-minifier');
 const readerBar = require('eleventy-plugin-reader-bar');
 const fetch = require('node-fetch');
+const _ = require('lodash');
 //const embedTwitter = require("eleventy-plugin-embed-twitter");
 
 module.exports = function(eleventyConfig) {
@@ -91,7 +92,7 @@ module.exports = function(eleventyConfig) {
 	})
 
 	// lazy images
-	eleventyConfig.addPlugin(lazyImagesPlugin);
+	//eleventyConfig.addPlugin(lazyImagesPlugin);
 	
 	// syntax highlighting
 	eleventyConfig.addPlugin(syntaxHighlight);
@@ -136,6 +137,15 @@ module.exports = function(eleventyConfig) {
 		return post;
 	});
 
+    eleventyConfig.addCollection("postByYear", (collection) => {
+        return _.chain(collection.getFilteredByTag("jurnal"))
+            .groupBy((artikel) => artikel.date.getFullYear())
+            .toPairs()
+            .reverse()
+            .value()
+    });
+
+    /*
     // compress html output
     eleventyConfig.addTransform("htmlmin", function (content, outputPath) {
 		if (outputPath.endsWith(".html")) {
@@ -148,5 +158,5 @@ module.exports = function(eleventyConfig) {
 		}
 		return content;
     });
-
+    */
 };
