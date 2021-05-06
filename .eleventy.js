@@ -1,4 +1,5 @@
 const markdownIt = require('markdown-it');
+const mdatrs = require('markdown-it-attrs');
 const lazyImagesPlugin = require('eleventy-plugin-lazyimages');
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
@@ -41,7 +42,7 @@ module.exports = function(eleventyConfig) {
 			return buku[index]
 		};
 			const hasilData = await relasih(data, judul);
-			var rese = hasilData.resensi.substr(0, 200)
+			var rese = await hasilData.resensi.substr(0, 200)
 			return `<div class="flex flex-row border-2 rounded-xl w-99 mx-auto mb-6 p-6 font-sans">
 				<img class="shadow-md" src="${hasilData.coverImg}" width="110" height="130" >
 				<div class="flex-1 w-1/2 pl-8 text-lg text-gray-700"> 
@@ -62,17 +63,29 @@ module.exports = function(eleventyConfig) {
 		print()
 	});
 
+    // post-related article
+    eleventyConfig.addPairedShortcode("prelated", function(desk, judul, url){
+        return `<div class="w-99 mx-auto my-8 border-2 py-2 px-3 rounded-md">
+            <h4 class="text-sm font-bold text-gray-500 tracking-tighter uppercase mb-2">Artikel terkait</h4>
+            <a class="text-xl font-semibold text-gray-900" href="$url" title="${judul}">${judul}</a>
+            <p class="font-sans text-gray-600 text-base mb-1">${desk}</p>
+        </div>`;
+    });
+
 	// markdownIt
 	let markdownLibrary = markdownIt({
 		html: true,
 		breaks: false,
-		linkify: true
+		linkify: true,
+        typographer: true
 	});
-
-	eleventyConfig.setLibrary("md", markdownLibrary);
+    eleventyConfig.setLibrary("md", markdownLibrary.use(mdatrs, {
+        allowedAttrubutes: ['id', 'class']
+    }));
 	eleventyConfig.addFilter('mdParse', function(resensi) {
 		let mdp = new markdownIt({
-			html: true
+			html: true,
+            typographer: true
 		});
 		return mdp.render(resensi)
 	})

@@ -3,7 +3,7 @@
   title: '11ty: Related Books'
   ringkasan: 'Shortcode untuk menampilkan related books dengan memanfaatkan JSON data'
   date: 2021-05-02
-  update: false
+  update: true
   tags:
       - 11ty
       - jurnal
@@ -16,7 +16,7 @@ Di halaman [bacaan](/baca) saya ingin menampilkan relasi buku terkait dengan *re
 Tampilan yang diinginkan adalah seperti [Twitter Cards](https://developer.twitter.com/en/docs/twitter-for-websites/cards/guides/getting-started) dengan gambar dan deskripsi. Gambarnya nanti bisa diisi dengan `coverImg`
 dari masing - masing artikel baca yang sudah saya tulis.
 
-![related post shortcodes](https://ik.imagekit.io/hjse9uhdjqd/jurnal/relasi_baca_GZtaKDPpe.jpg)
+{% related "sewu dino" %}
 
 ### Membuat basis data dalam JSON
 
@@ -162,14 +162,14 @@ Sampai disini jika *tags* {% raw %}`{% related "judul" %}`{% endraw %} dimasukka
 
 ```js
 return `<div class="flex">
-	<img class="shadow-md" src="${hasilData.coverImg}" width="110" height="130" >
-	<div class="flex-1"> 
-		<b><a href="${hasilData.url}">${hasilData.title}</a> </b>
-		<dl>
-			<dt>${hasilData.penulis} </d> 
-			<dd>${rese} ...</dd>
-		</dl>
-	</div>
+<img class="shadow-md" src="${hasilData.coverImg}"  >
+<div class="flex-1"> 
+	<a href="${hasilData.url}">${hasilData.title}</a>
+	<dl>
+		<dt>${hasilData.penulis} </d> 
+		<dd>${rese} ...</dd>
+	</dl>
+</div>
 </div>`;
 ```
 
@@ -178,31 +178,31 @@ Karena `node-fetch` menghasilkan `promise` maka `return` perlu diakses dengan ta
 ```js
 eleventyConfig.addLiquidShortcode("related", async function (judul) {
 try {
-	const response = await fetch('https://kusaeni.com/baca/data.json', {
-		method: 'GET',
-		headers: {
-			'Content-Type': 'application/json'
-		}
-	});
-	const data = await response.json();
-	const relasi = function (buku, judul) {
-		const index = buku.findIndex(function (novel, index) {
-			return novel.title.toLowerCase() === judul.toLowerCase()
-		})
-	return buku[index]
+const response = await fetch('https://kusaeni.com/baca/data.json', {
+	method: 'GET',
+	headers: {
+		'Content-Type': 'application/json'
+	}
+});
+const data = await response.json();
+const relasi = function (buku, judul) {
+	const index = buku.findIndex(function (novel, index) {
+		return novel.title.toLowerCase() === judul.toLowerCase()
+	})
+return buku[index]
 };
-	const hasilData = await relasi(data, judul);
-	var rese = hasilData.resensi.substr(0, 200)
-	return `<div class="flex">
-				<img class="shadow-md" src="${hasilData.coverImg}" width="110" height="130" >
-				<div class="flex-1"> 
-					<b><a href="${hasilData.url}">${hasilData.title}</a> </b>
-					<dl>
-						<dt>${hasilData.penulis} </d> 
-						<dd>${rese} ...</dd>
-					</dl>
-				</div>
-			</div>`;
+const hasilData = await relasi(data, judul);
+ var rese = hasilData.resensi.substr(0, 200)
+ return `<div class="flex">
+		<img class="shadow-md" src="${hasilData.coverImg}" >
+		<div class="flex-1"> 
+		<a href="${hasilData.url}">${hasilData.title}</a>
+		<dl>
+			<dt>${hasilData.penulis} </d> 
+			<dd>${rese} ...</dd>
+		</dl>
+		</div>
+	</div>`;
 } catch (err) {
 	console.log(err)
 }
@@ -216,7 +216,51 @@ print()
 
 Saya menambahkan fungsi `rese` untuk memotong karakter di `resensi` agar tidak lebih dari 200 karakter.
 
-### Kesimpulan dan catatan
+### Update {#update .text-red-500}
+
+Saya menambahkan fungsi yang sama untuk menampilkan relasi artikel di *collection* jurnal dengan
+sedikit perbedaan yaitu tanpa `coverImg` dan tanpa mempergunakan `fetch` JSON. Meskipun kode diatas
+bisa juga diaplikasikan di *collection* apa saja, namun saya tidak memakainya dengan alasan
+[performa](#kesimpulan).
+
+Di jurnal saya hanya ingin menampilkan relasi artikel dengan format `judul`, `url`, dan `desk` atau
+deskripsi. 
+
+Saya memakai fungsi lain *shortcodes* yaitu *paired shortcodes*. Seperti diatas, tulis kode beriku
+di *file .eleventy.js*
+
+```js
+eleventyConfig.addPairedShortcode("prelated", 
+    function(desk, judul, url){
+    return `<div class="relasi-artikel">
+        <h4 class="header-relasi">Artikel terkait</h4>
+        <a class="link" href="$url" title="${judul}">${judul}</a>
+        <p class="desk-relasi">${desk}</p>
+    </div>`;
+});
+```
+
+Sesuai namanya *paired* maka *shortcodes* ini akan membuat *template tags* baru dengan *tags* buka
+dan tutup.
+
+{% raw %}
+```liquid
+{% prelated "11ty Reader Bar", "/jurnal/11tyReaderBar" %}
+11ty Reader Bar : sebuah plugin shortcodes untuk menampilkan readerbar di eleventy
+{% endprelated %}
+```
+{% endraw %}
+
+Dengan catatan :
+- "*11ty Reader Bar*{.underline}" akan diproses sebagai *variable* `judul`,
+- "*/jurnal/11tyReaderBar*{.underline}" sebagai `url`,
+- "*11ty Reader Bar : sebuah plugin shortcodes untuk menampilkan readerbar di eleventy*{.underline}" sebagai `desk`
+
+{% prelated "11ty Reader Bar", "/jurnal/11tyReaderBar" %}
+Sebuah plugin shortcodes untuk menampilkan readerbar di eleventy
+{% endprelated %}
+
+### Kesimpulan dan catatan {#kesimpulan}
 
 Alhamdulillah dengan fungsi *shortcodes* ini saya bisa menampilkan relasi bacaan sesuai dengan keinginan, namun ada beberapa
 hal yang perlu diperhatikan saat mempergunakan *shortcodes* ini, diantaranya :
