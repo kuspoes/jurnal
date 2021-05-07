@@ -66,18 +66,29 @@ Kemudian *edit* CSS yang dimaksud. Dalam hal ini adalah baris berikut :
   </div>
 ```
 
-Nilai `top:2px` saya rubah menjadi `0px` agar tidak muncul *gap*.
+Nilai `top:2px` saya rubah menjadi `0px` agar tidak muncul *gap*, merubah warna *background* untuk
+tombol *back to top* serta menyesuaikan agar ukurannya sedikit lebih besar.
 
 2. Setelah selesai *edit* saatnya mem*packing* ulang dengan NPM untuk mendapatkan berkas `.tgz`.
 ```bash
 $ npm pack
 ```
+
+Proses ini akan menghasilkan sebuah *file* dengan akhiran `tgz`. Nama *file* dan versinya bisa
+disesuaikan dengan mengubahnya di `package.json` sebelum melakukan `pack`.
+
+Saya memindahkan *file* `tgz` tersebut ke direktori `_tmp` di dalam direktori jurnal dan
+memanggil/meng*install*nya.
+
 3. *Edit file package.json* dan masukkan secara manual *dependecies*-nya.
 ```json
 "dependencies": {
-  "eleventy-plugin-reader-bar": "file:./_tmp/eleventy-plugin-reader-bar-0.2.0.tgz"
+  "reader-bar": "file:./_tmp/eleventy-plugin-reader-bar-0.2.0.tgz"
 }
 ```
+ <p class="sidenote"><i>file package.json</i> yang dimaksud ini adalah yang berada di direktori jurnal,
+ bukan di direktori letak <i>module</i> tadi diunduh.</p>
+
 4. *Install* dengan menjalankan perintah `npm install`.
 
 *Folder* `_tmp` ini harus diikutkan saat `push` ke repository (Github/Gitlab) karena saat di*build* dengan [Netlify](https://netlify.com) akan mencari *eleventy-plugin-reader-bar* di *path* lokal tersebut.

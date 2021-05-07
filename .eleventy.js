@@ -1,14 +1,14 @@
-const markdownIt = require('markdown-it');
-const mdatrs = require('markdown-it-attrs');
-const lazyImagesPlugin = require('eleventy-plugin-lazyimages');
-const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
-const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
-const pluginRss = require("@11ty/eleventy-plugin-rss");
-const htmlmin = require('html-minifier');
-const readerBar = require('eleventy-plugin-reader-bar');
-const fetch = require('node-fetch');
-const _ = require('lodash');
-const embedTwitter = require("eleventy-plugin-embed-twitter");
+const markdownIt        = require('markdown-it');
+const mdatrs            = require('markdown-it-attrs');
+const lazyImagesPlugin  = require('eleventy-plugin-lazyimages');
+const syntaxHighlight   = require("@11ty/eleventy-plugin-syntaxhighlight");
+//const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
+const pluginRss         = require("@11ty/eleventy-plugin-rss");
+const htmlmin           = require('html-minifier');
+const readerBar         = require('eleventy-plugin-reader-bar');
+const fetch             = require('node-fetch');
+const _                 = require('lodash');
+const embedTwitter      = require("eleventy-plugin-embed-twitter");
 
 module.exports = function(eleventyConfig) {
 	eleventyConfig.addFilter('dateReadable', date => {
@@ -91,14 +91,11 @@ module.exports = function(eleventyConfig) {
 		return mdp.render(resensi)
 	})
 
-	// lazy images
-	eleventyConfig.addPlugin(lazyImagesPlugin);
-	
-	// syntax highlighting
+		// syntax highlighting
 	eleventyConfig.addPlugin(syntaxHighlight);
 
 	// syntax highlighting
-	eleventyConfig.addPlugin(eleventyNavigationPlugin);
+	//eleventyConfig.addPlugin(eleventyNavigationPlugin);
 
 	// rss
 	eleventyConfig.addPlugin(pluginRss);
@@ -145,7 +142,10 @@ module.exports = function(eleventyConfig) {
             .value()
     });
 
-
+    // Biar mudah dicomment
+    // lazy images
+	eleventyConfig.addPlugin(lazyImagesPlugin);
+	
     // compress html output
     eleventyConfig.addTransform("htmlmin", function (content, outputPath) {
 		if (outputPath.endsWith(".html")) {

@@ -20,4 +20,7 @@
      - baca
 ---
 
-Sedang dalam penulisan ulang
+Singkat saja, ini adalah buku kedua dari Dan Brown yang bertema "*membunuh untuk mengurangi populasi
+manusia guna menyelamatkan bumi*". Tema yang sama yang pernah ditulis Brown di bukunya berjudul Inferno.
+
+Dari sekian buku Brown, ini adalah buku terburuk yang pernah saya baca.
