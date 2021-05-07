@@ -68,7 +68,7 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPairedShortcode("prelated", function(desk, judul, url){
         return `<div class="w-99 mx-auto my-8 border border-gray-400 py-2 px-3 rounded-md">
             <h4 class="text-sm font-bold text-gray-500 tracking-tighter uppercase mb-2">Artikel terkait</h4>
-            <a class="text-xl font-semibold text-gray-900" href="$url" title="${judul}">${judul}</a>
+            <a class="text-xl font-semibold text-gray-900" href="${url}" title="${judul}">${judul}</a>
             <p class="font-sans text-gray-600 text-base mb-1">${desk}</p>
         </div>`;
     });

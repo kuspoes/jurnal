@@ -234,7 +234,7 @@ eleventyConfig.addPairedShortcode("prelated",
     function(desk, judul, url){
     return `<div class="relasi-artikel">
         <h4 class="header-relasi">Artikel terkait</h4>
-        <a class="link" href="$url" title="${judul}">${judul}</a>
+        <a class="link" href="${url}" title="${judul}">${judul}</a>
         <p class="desk-relasi">${desk}</p>
     </div>`;
 });
