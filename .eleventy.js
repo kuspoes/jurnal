@@ -92,7 +92,7 @@ module.exports = function(eleventyConfig) {
 	})
 
 	// lazy images
-	//eleventyConfig.addPlugin(lazyImagesPlugin);
+	eleventyConfig.addPlugin(lazyImagesPlugin);
 	
 	// syntax highlighting
 	eleventyConfig.addPlugin(syntaxHighlight);
