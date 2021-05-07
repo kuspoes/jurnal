@@ -103,7 +103,7 @@ dimana `related` akan menjadi fungsi pemanggil *shortcodes* dan `judul` menjadi 
 Sehingga di *file eleventy.js* saya menambahkan *syntax* berikut :
 
 ```js
-eleventyConfig.addLiquidShortcode("related", async function (judul) {}
+eleventyConfig.addLiquidShortcode("related", async function(judul){}
 ```
 
  <p class="sidenote">Saya sebenarnya adalah pengguna <a href="https://mozilla.github.io/nunjucks/" alt="Nunjucks">Nunjucks</a>, namun karena <i>default render</i> <code>markdown</code> di <i>eleventy</i> mempergunakan <a href="https://shopify.github.io/liquid/" alt="Liquid template Tags">Liquid</a>. Maka <i>shortcodes</i> saya mempergunakan Liquid</p>

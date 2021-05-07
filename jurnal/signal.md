@@ -86,13 +86,13 @@ Solusinya adalah berpindah ke layanan *messaging* lainnya, dalam hal ini yang pa
 
 Selain *open source*, memiliki fitur yang sama dengan Whatsapp, Signal lebih aman. Kelebihan lainnya adalah aplikasi Signal tersedia di pelbagai platform seperti Android, iOS, dan Desktop.
 
-<h3 class="font-semibold text-xl text-gray-500"><span class="text-red-500">UPDATE</span></h3>
+<h3 class="text-xl font-semibold text-gray-500"><span class="text-red-500">UPDATE</span></h3>
 
 <b>13 Januari 2021</b>
 
 Whatsapp sepertinya cukup panik dengan aksi pindah ke Signal. Rabu, 13 Januari 2021 Whatsapp menanyangkan iklan mengenai maksud dari kebijakan *privacy policy*nya. 
 
- <blockquote class="twitter-tweet mx-auto"><p lang="en" dir="ltr">Full page ad from WhatsApp in the paper today. This takes me back to the Facebook Free Basics ad campaign some years ago. <a href="https://t.co/18NjYjcfaI">pic.twitter.com/18NjYjcfaI</a></p>&mdash; Chandra R. Srikanth (@chandrarsrikant) <a href="https://twitter.com/chandrarsrikant/status/1349181160107110401?ref_src=twsrc%5Etfw">January 13, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+https://twitter.com/chandrarsrikant/status/1349181160107110401?ref_src=twsrc%5Etfw
 
 Kenapa di India?
 

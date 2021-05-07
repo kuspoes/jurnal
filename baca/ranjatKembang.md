@@ -51,6 +51,7 @@ Ini tentang Mira, salah satu Kudro keluarga Codro.
 
 Kisah tentang Mira ini sebagian besar sudah ditulis oleh Simpleman di *threads* [Padusan Pituh](https://twitter.com/simplem81378523/status/1192048445004996609).
 
+https://twitter.com/simplem81378523/status/1192048445004996609
 
 ### Lemah Layat
 
@@ -58,6 +59,7 @@ Agus dan Ruslan.
 
 Seperti kisah Mira, Simpleman sudah menuliskan kisah Agus dan Ruslan dengan cukup lengkap di Twitter *threads* [Lemah Layat](https://twitter.com/simplem81378523/status/1180793234793959425).
 
+https://twitter.com/simplem81378523/status/1180793234793959425
 
 <p class="sidenote"><i>Threads</i> Simpleman di Twitter tentang kisah Mira dan Agus ini jauh lebih lengkap dibandingkan yang tertuang di dalam buku, namun ada detil - detil yang tidak ditemukan di Twitter bisa dibaca di buku ini. Mungkin memang dibuat seperti itu, namun bisa dimaklumi karena buku ini sebenarnya lebih fokus kepada Dela sesuai judulnya Ranjat Kembang WijayaKususma</p>
 

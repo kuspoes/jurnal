@@ -8,7 +8,7 @@ const htmlmin = require('html-minifier');
 const readerBar = require('eleventy-plugin-reader-bar');
 const fetch = require('node-fetch');
 const _ = require('lodash');
-//const embedTwitter = require("eleventy-plugin-embed-twitter");
+const embedTwitter = require("eleventy-plugin-embed-twitter");
 
 module.exports = function(eleventyConfig) {
 	eleventyConfig.addFilter('dateReadable', date => {
@@ -44,7 +44,7 @@ module.exports = function(eleventyConfig) {
 		};
 			const hasilData = await relasih(data, judul);
 			var rese = await hasilData.resensi.substr(0, 200)
-			return `<div class="flex flex-row border-2 rounded-xl w-99 mx-auto mb-6 p-6 font-sans">
+			return `<div class="flex flex-row border border-gray-400 rounded-xl w-99 mx-auto mb-6 p-6 font-sans">
 				<img class="shadow-md" src="${hasilData.coverImg}" width="110" height="130" >
 				<div class="flex-1 w-1/2 pl-8 text-lg text-gray-700"> 
 					<b><a href="${hasilData.url}" title="${hasilData.title}">${hasilData.title}</a> </b>
@@ -66,7 +66,7 @@ module.exports = function(eleventyConfig) {
 
     // post-related article
     eleventyConfig.addPairedShortcode("prelated", function(desk, judul, url){
-        return `<div class="w-99 mx-auto my-8 border-2 py-2 px-3 rounded-md">
+        return `<div class="w-99 mx-auto my-8 border border-gray-400 py-2 px-3 rounded-md">
             <h4 class="text-sm font-bold text-gray-500 tracking-tighter uppercase mb-2">Artikel terkait</h4>
             <a class="text-xl font-semibold text-gray-900" href="$url" title="${judul}">${judul}</a>
             <p class="font-sans text-gray-600 text-base mb-1">${desk}</p>
@@ -107,7 +107,7 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPlugin(readerBar)
 
 	// embed twitter
-	// eleventyConfig.addPlugin(embedTwitter);
+    eleventyConfig.addPlugin(embedTwitter);
 
     // Next Prev 
 	eleventyConfig.addCollection("baca", function (collection) {
@@ -145,7 +145,7 @@ module.exports = function(eleventyConfig) {
             .value()
     });
 
-    /*
+
     // compress html output
     eleventyConfig.addTransform("htmlmin", function (content, outputPath) {
 		if (outputPath.endsWith(".html")) {
@@ -158,5 +158,5 @@ module.exports = function(eleventyConfig) {
 		}
 		return content;
     });
-    */
+
 };
