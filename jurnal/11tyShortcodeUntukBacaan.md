@@ -156,6 +156,19 @@ console.log(hasilData)
 
 Disini *string* `judul` harus diamankan dengan membuat `judul` menjadi huruf kecil semua `toLowerCase()` untuk menghindari kesalahan tipo saat mengetik judul. 
 
+### Update {.text-red-500}
+
+Kode diatas terlihat komplek sekali, ada kode lebih sederhana namun ketika saya coba membuat waktu
+`build` sedikit lebih lama, 
+
+```js
+const response = await fetch('https://kusaeni.com/baca/data.json');
+const data     = await response.json();
+const hasilData= data.find(function(caridata) {
+    return caridata.title.toLowerCase() === judul.toLowerCase()
+}); 
+```
+
 Sampai disini jika *tags* {% raw %}`{% related "judul" %}`{% endraw %} dimasukkan ke dalam artikel, maka pada saat `build`/`serve`, *eleventy* akan mengambil  `data.json` dan meng*filter*nya berdasarkan *query* judul yang dimasukkan. Hasilnya bisa diliat di log di konsol.
 
 4. Untuk menampilkan data tersebut di posisi *tags* disisipkan, maka perlu ditambahkan kode berikut :

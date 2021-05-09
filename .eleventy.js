@@ -3,6 +3,7 @@ const mdatrs            = require('markdown-it-attrs');
 const lazyImagesPlugin  = require('eleventy-plugin-lazyimages');
 const syntaxHighlight   = require("@11ty/eleventy-plugin-syntaxhighlight");
 //const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
+//const Cache             = require('@11ty/eleventy-cache-assets');
 const pluginRss         = require("@11ty/eleventy-plugin-rss");
 const htmlmin           = require('html-minifier');
 const readerBar         = require('eleventy-plugin-reader-bar');
@@ -29,21 +30,17 @@ module.exports = function(eleventyConfig) {
 
 	eleventyConfig.addLiquidShortcode("related", async function (judul) {
 		try {
-			const response = await fetch('https://kusaeni.com/baca/data.json', {
+            const response = await fetch('https://kusaeni.com/baca/data.json', {
 				method: 'GET',
 				headers: {
 					'Content-Type': 'application/json'
 				}
 			});
-			const data = await response.json();
-			const relasih = function (buku, judul) {
-				const index = buku.findIndex(function (novel, index) {
-					return novel.title.toLowerCase() === judul.toLowerCase()
-				})
-			return buku[index]
-		};
-			const hasilData = await relasih(data, judul);
-			var rese = await hasilData.resensi.substr(0, 200)
+			const data     = await response.json();
+            const hasilData= data.find(function(caridata) {
+                return caridata.title.toLowerCase() === judul.toLowerCase()
+            }); 
+            var rese = await hasilData.resensi.substr(0, 200)
 			return `<div class="flex flex-row border border-gray-400 rounded-xl w-99 mx-auto mb-6 p-6 font-sans">
 				<img class="shadow-md" src="${hasilData.coverImg}" width="110" height="130" >
 				<div class="flex-1 w-1/2 pl-8 text-lg text-gray-700"> 
