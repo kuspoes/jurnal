@@ -16,7 +16,7 @@ Di halaman [bacaan](/baca) saya ingin menampilkan relasi buku terkait dengan *re
 Tampilan yang diinginkan adalah seperti [Twitter Cards](https://developer.twitter.com/en/docs/twitter-for-websites/cards/guides/getting-started) dengan gambar dan deskripsi. Gambarnya nanti bisa diisi dengan `coverImg`
 dari masing - masing artikel baca yang sudah saya tulis.
 
-{% related "sewu dino" %}
+{% related "tokyo zodiac murder" %}
 
 ### Membuat basis data dalam JSON
 
@@ -267,9 +267,9 @@ dan tutup.
 {% endraw %}
 
 Dengan catatan :
-- "*11ty Reader Bar*{.underline}" akan diproses sebagai *variable* `judul`,
-- "*/jurnal/11tyReaderBar*{.underline}" sebagai `url`,
-- "*11ty Reader Bar : sebuah plugin shortcodes untuk menampilkan readerbar di eleventy*{.underline}" sebagai `desk`
+- "11ty Reader Bar" akan diproses sebagai *variable* `judul`,
+- "/jurnal/11tyReaderBar" sebagai `url`,
+- "11ty Reader Bar : sebuah plugin shortcodes untuk menampilkan readerbar di eleventy" sebagai `desk`
 
 {% prelated "11ty Reader Bar", "/jurnal/11tyReaderBar" %}
 Sebuah plugin shortcodes untuk menampilkan readerbar di eleventy
@@ -304,3 +304,22 @@ Namun masih di dalam hitungan *miliseconds* dan saya tidak keberatan dengan ini 
 
 4. Jika waktu `build` begitu berharga, maka solusi yang paling mendekati adalah mempergunakan
    *paired shortcodes* yang tidak perlu melakukan `fetch` dan proses *query* data.
+
+```js
+eleventyConfig.addPairedShortcode("relatedpair", 
+function(resensi, coverImg, judul, url){
+ let coverUrl = "https://ik.imagekit.io/hjse9uhdjqd/tr:n-cover/buku/"
+ return `<div class="flex">
+		<img class="shadow-md" src="${coverUrl}${coverImg}">
+		<div class="flex-1"> 
+			<b><a href="${url}" title="${judul}">${judul}</a> </b>
+			<dd>${resensi} ...</dd>
+			</dl>
+		</div>
+		</div>`;
+    });
+```
+<span class="code_cap">Sebutlah sebagai kode ketiga</span>
+
+Dengan mempergunakan *paired shortcodes* ini, waktu `build` **dipangkas hampir 300%** yang awalnya
+sekitar 9 - 10 detik menjadi 2 - 3 detik saja.

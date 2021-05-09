@@ -28,15 +28,10 @@ module.exports = function(eleventyConfig) {
 	eleventyConfig.addPassthroughCopy("js");
 	eleventyConfig.addPassthroughCopy("favicon.ico");
 
-
+    
     eleventyConfig.addLiquidShortcode("related", async function (judul) {
 		try {
-            const response = await fetch('https://kusaeni.com/baca/data.json', {
-				method: 'GET',
-				headers: {
-					'Content-Type': 'application/json'
-				}
-			});
+            const response = await fetch('https://kusaeni.com/baca/data.json');
 			const data     = await response.json();
             const hasilData= data.find(function(caridata) {
                 return caridata.title.toLowerCase() === judul.toLowerCase()
@@ -62,7 +57,20 @@ module.exports = function(eleventyConfig) {
 		};
 		print()
 	});
-    
+
+
+    eleventyConfig.addPairedShortcode("relatedpair", function(resensi, coverImg, judul, url){
+        let coverUrl = "https://ik.imagekit.io/hjse9uhdjqd/tr:n-cover/buku/"
+        return `<div class="flex flex-row border border-gray-400 rounded-xl w-99 mx-auto mb-6 p-6 font-sans">
+				<img class="shadow-md" src="${coverUrl}${coverImg}" width="110" height="130" >
+				<div class="flex-1 w-1/2 pl-8 text-lg text-gray-700"> 
+					<b><a href="${url}" title="${judul}">${judul}</a> </b>
+					<dd>${resensi} ...</dd>
+					</dl>
+				</div>
+				</div>`;
+    });
+
     // post-related article
     eleventyConfig.addPairedShortcode("prelated", function(desk, judul, url){
         return `<div class="w-99 mx-auto my-8 border border-gray-400 py-2 px-3 rounded-md">

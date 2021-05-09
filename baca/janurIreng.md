@@ -60,4 +60,4 @@ Kendala terbesar adalah banyaknya tokoh dan kejadian yang membuat harus membongk
 
 Saya tidak terlalu suka dengan kisah yang ini, nilai 3 dari 5 sudah cukup bagus. Saya membaca buku ini dan tidak terlalu ingin mengulang membaca lagi.
 
-{% related "ranjat kembang" %}
+

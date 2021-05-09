@@ -39,5 +39,3 @@ Lalu apakah penyakit yang diderita oleh Dela Atmojo? Kenapa tidak dibawa ke ruma
 Ini adalah buku pertama dari *Universe* Trah Pitu. Isi buku ini sebenarnya sudah ditulis dalam *threads* [Simpleman di Twitter](https://twitter.com/SimpleM81378523/status/1158380946728427520?ref_src=twsrc%5Etfw) dengan judul yang sama. Namun di buku ini ditambahkan beberapa *chapters* dan detil - detil yang tidak ada di *threads*.
 
 Buku kedua adalah [Janur Ireng](https://kusaeni.com/baca/janurireng/) dan dilanjut [Ranjat Kembang](https://kusaeni.com/baca/ranjatkembang/) sebagai buku ketiga.
-
-{% related "janur ireng" %}
