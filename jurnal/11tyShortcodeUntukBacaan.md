@@ -153,13 +153,14 @@ return buku[index]
 const hasilData = await relasi(data, judul);
 console.log(hasilData)
 ```
+<span class="code_cap">Kita sebut ini sebagai kode pertama</span>
 
 Disini *string* `judul` harus diamankan dengan membuat `judul` menjadi huruf kecil semua `toLowerCase()` untuk menghindari kesalahan tipo saat mengetik judul. 
 
 ### Update {.text-red-500}
 
 Kode diatas terlihat komplek sekali, ada kode lebih sederhana namun ketika saya coba membuat waktu
-`build` sedikit lebih lama, 
+`build` [sedikit lebih lama](#build).
 
 ```js
 const response = await fetch('https://kusaeni.com/baca/data.json');
@@ -168,6 +169,7 @@ const hasilData= data.find(function(caridata) {
     return caridata.title.toLowerCase() === judul.toLowerCase()
 }); 
 ```
+<span class="code_cap">Sebutlah ini sebagai kode kedua.</span>
 
 Sampai disini jika *tags* {% raw %}`{% related "judul" %}`{% endraw %} dimasukkan ke dalam artikel, maka pada saat `build`/`serve`, *eleventy* akan mengambil  `data.json` dan meng*filter*nya berdasarkan *query* judul yang dimasukkan. Hasilnya bisa diliat di log di konsol.
 
@@ -227,7 +229,7 @@ print()
 });
 ```
 
-Saya menambahkan fungsi `rese` untuk memotong karakter di `resensi` agar tidak lebih dari 200 karakter.
+<p class="sidenote">Jika ingin mempergunakan kode kedua, silakan disesuaikan. Saya menambahkan fungsi <code>rese</code> untuk memotong karakter di <code>resensi</code> agar tidak lebih dari 200 karakter</p>
 
 ### Update {#update .text-red-500}
 
@@ -239,7 +241,7 @@ bisa juga diaplikasikan di *collection* apa saja, namun saya tidak memakainya de
 Di jurnal saya hanya ingin menampilkan relasi artikel dengan format `judul`, `url`, dan `desk` atau
 deskripsi. 
 
-Saya memakai fungsi lain *shortcodes* yaitu *paired shortcodes*. Seperti diatas, tulis kode beriku
+Saya memakai fungsi lain *shortcodes* yaitu *paired shortcodes*. Seperti diatas, tulis kode berikut
 di *file .eleventy.js*
 
 ```js
@@ -283,8 +285,22 @@ Alhamdulillah dengan fungsi *shortcodes* ini saya bisa menampilkan relasi bacaan
 hal yang perlu diperhatikan saat mempergunakan *shortcodes* ini, diantaranya :
 
 1. Untuk mengurangi kesalahan dalam *query* data berdasarkan judul, maka judul perlu dibuat `lowerCase` semua. Namun hal ini tidak menjadi solusi jika penulisan judulnya salah karena salah ketik atau salah spasi,
-2. Proses ini harus mengambil `data.json` dan melakukan `parse` serta *query* membuat waktu *build* menjadi lebih lama, sekitar 19 - 30 ms dimana sebelumnya sekitar 9 - 17 ms.
 
-Saya melakukan **DEBUG** `build` *eleventy* dan hasilnya butuh waktu 8,9 ms sendiri untuk membaca dan menyelesaikan eksekusi *file eleventy.js*.
+2. Proses ini harus mengambil `data.json` dan melakukan `parse` serta *query* membuat waktu *build* menjadi lebih lama, sekitar 19 - 30 ms dimana sebelumnya sekitar 9 - 17 ms. {#build}
+
+Saya melakukan **DEBUG** `build` *eleventy* dengan hasil sebagai berikut: 
+
+- Untuk kode *query* pertama membutuhkan waktu sekitar 8.02 detik untuk memproses 28 *files*,
+- Dan butuh waktu 9,02 detik untuk kode yang kedua. 
+
+ <p class="sidenote">Uji coba dilakukan dengan mengnonatifkan <i>plugin</i> Eleventy Lazy Images.
+ Jika <i>plugin</i> ini diaktifkan akan membutuhkan waktu sekitar 1 - 2 detik lebih lama. Ini akan
+ menjadi <a href="https://github.com/11ty/eleventy/issues/1346">masalah</a> saat mulai melakukan <code>build</code> dengan jumlah halaman yang banyak.</p>
 
 Namun masih di dalam hitungan *miliseconds* dan saya tidak keberatan dengan ini dan pastinya jatah `build` dari Netlify masih jauh dari waktu terlampaui.
+
+3. Saya belum menemukannya, namun jika ada perintah untuk mem`build` *files* tertentu saja atau
+   *files* ter*update* saja tentu akan memangkas waktu untuk `build` secara signifikan.
+
+4. Jika waktu `build` begitu berharga, maka solusi yang paling mendekati adalah mempergunakan
+   *paired shortcodes* yang tidak perlu melakukan `fetch` dan proses *query* data.

@@ -28,7 +28,8 @@ module.exports = function(eleventyConfig) {
 	eleventyConfig.addPassthroughCopy("js");
 	eleventyConfig.addPassthroughCopy("favicon.ico");
 
-	eleventyConfig.addLiquidShortcode("related", async function (judul) {
+
+    eleventyConfig.addLiquidShortcode("related", async function (judul) {
 		try {
             const response = await fetch('https://kusaeni.com/baca/data.json', {
 				method: 'GET',
@@ -40,6 +41,7 @@ module.exports = function(eleventyConfig) {
             const hasilData= data.find(function(caridata) {
                 return caridata.title.toLowerCase() === judul.toLowerCase()
             }); 
+            //console.log(hasilData)
             var rese = await hasilData.resensi.substr(0, 200)
 			return `<div class="flex flex-row border border-gray-400 rounded-xl w-99 mx-auto mb-6 p-6 font-sans">
 				<img class="shadow-md" src="${hasilData.coverImg}" width="110" height="130" >
@@ -60,7 +62,7 @@ module.exports = function(eleventyConfig) {
 		};
 		print()
 	});
-
+    
     // post-related article
     eleventyConfig.addPairedShortcode("prelated", function(desk, judul, url){
         return `<div class="w-99 mx-auto my-8 border border-gray-400 py-2 px-3 rounded-md">
