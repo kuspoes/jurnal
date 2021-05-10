@@ -151,6 +151,8 @@ hasil dari `response` disimpan sebagai JSON.
 
 <p class="sidenote">Dengan <code>JSON.parse</code>, proses <code>build</code> tidak lagi membutuhkan akses internet karena
 akan data dibaca dari lokal.</p>
+<p class="sidenote">Dengan syarat <i>file</i> JSON yang dimaksud adalah <i>file existing</i> yang
+tidak dibuat pada saat proses <code>build</code>. </p>
 
 3. Kemudian buat fungsi *query* untuk mengambil data berdasarkan *value* `judul` dengan mempergunakan `findIndex`
 
