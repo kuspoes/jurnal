@@ -1,6 +1,6 @@
 const markdownIt        = require('markdown-it');
 const mdatrs            = require('markdown-it-attrs');
-const lazyImagesPlugin  = require('eleventy-plugin-lazyimages');
+//const lazyImagesPlugin  = require('eleventy-plugin-lazyimages');
 const syntaxHighlight   = require("@11ty/eleventy-plugin-syntaxhighlight");
 //const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 //const Cache             = require('@11ty/eleventy-cache-assets');
@@ -10,6 +10,7 @@ const readerBar         = require('eleventy-plugin-reader-bar');
 const fetch             = require('node-fetch');
 const _                 = require('lodash');
 const embedTwitter      = require("eleventy-plugin-embed-twitter");
+const fs                = require('fs')
 
 module.exports = function(eleventyConfig) {
 	eleventyConfig.addFilter('dateReadable', date => {
@@ -151,7 +152,7 @@ module.exports = function(eleventyConfig) {
 
     // Biar mudah dicomment
     // lazy images
-	eleventyConfig.addPlugin(lazyImagesPlugin);
+	//eleventyConfig.addPlugin(lazyImagesPlugin);
 	
     // compress html output
     eleventyConfig.addTransform("htmlmin", function (content, outputPath) {

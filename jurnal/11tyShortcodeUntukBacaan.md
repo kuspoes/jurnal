@@ -123,6 +123,7 @@ $ npm install node-fetch
 
  <p class="sidenote">Pengguna <a href="https://github.com/axios/axios">axios</a> bisa mempergunakannya sebagai pengganti <code>fetch</code>. Silakan menyesuaikan kode dibawah dengan fungsi di <code>axios</code>.</p>
 
+
 kemudian buat fungsi di dalam *shortcodes* untuk mengambil basis data :
 
 ```js
@@ -140,6 +141,16 @@ try {
 ```
 
 hasil dari `response` disimpan sebagai JSON.
+
+<p class="sidenote">Opsi lain adalah mempergunakan <code>JSON.parse</code> dengan <code>fs</code></p>
+
+```js
+ const fs   = require('fs')
+ const data = JSON.parse(fs.readFileSync("./baca/data.json"));
+```
+
+<p class="sidenote">Dengan <code>JSON.parse</code>, proses <code>build</code> tidak lagi membutuhkan akses internet karena
+akan data dibaca dari lokal.</p>
 
 3. Kemudian buat fungsi *query* untuk mengambil data berdasarkan *value* `judul` dengan mempergunakan `findIndex`
 
@@ -329,3 +340,12 @@ itu. Sedikit merepotkan tapi terbayar dengan gegasnya saat `build`.
 
 Dengan mempergunakan *paired shortcodes* ini, waktu `build` **dipangkas hampir 300%** yang awalnya
 sekitar 9 - 10 detik menjadi 2 - 3 detik saja.
+
+Akhirnya berikut adalah tabel perbandingan kecepatan `build` dengan mempergunakan masing - masing
+kode diatas :
+
+|Metode                             | Waktu     |
+|-----------------------------------|-----------|
+|shortcode + fetch + findIndex      |8,02 detik |
+|shortcode + fetch + find           |9,02 detik |
+|paired shortcode                   |3 detik    |  
