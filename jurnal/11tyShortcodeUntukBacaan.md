@@ -299,7 +299,7 @@ Saya melakukan **DEBUG** `build` *eleventy* dengan hasil sebagai berikut:
  menjadi <a href="https://github.com/11ty/eleventy/issues/1346">masalah</a> saat mulai melakukan <code>build</code> dengan jumlah halaman yang banyak.</p>
 
 Saat di`build` di [Netlify](https://netlify.com) membutuhkan tambahan waktu untuk proses, rata -
-rata menjadi sekitar 20 - 30 detik untuk selesai. Jika *build time* ini konstan, maka jatah `build`
+rata menjadi sekitar 20 - 30 detik (Netlify biasanya butuh 2,5 kali waktu *build time*) untuk selesai. Jika *build time* ini konstan, maka jatah `build`
 di Netlify bisa menjadi sampai dengan 900 kali setiap bulannya.
 
 3. Saya belum menemukannya, namun jika ada perintah untuk mem`build` *files* tertentu saja atau
