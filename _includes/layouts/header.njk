@@ -8,11 +8,9 @@
     <meta name="author" content="Kusaeni">
     <link href="https://twitter.com/kuspoes" rel="me">
     <title>{{ title or metadata.title }}</title>
-    <link rel="preload" href="{{ '/css/style.css' | url }}" as="style">
-    <link rel="preload" href="{{ '/css/fonts.css' | url }}" as="style">
     <link rel="stylesheet" href="{{ '/css/style.css' | url }}">
-    <link rel="stylesheet" href="{{ '/css/fonts.css' | url }}">
-    {% if code %}<link rel="preload" href="{{ '/css/prism.css' | url }}" as="style"><link rel="stylesheet" href="{{ '/css/prism.css' | url }}">{% endif %}
+    <link rel="preload" href="{{ '/css/fonts.css' | url }}" as="style">
+    {% if code %}<link rel="stylesheet" href="{{ '/css/prism.css' | url }}" as="style">{% endif %}
     <link rel="shortcut icon" href="{{ '/favicon.ico' | url }}" type="image/x-icon">
     <link rel="alternate" type="application/rss+xml" title="Subscribe to Kusaeni Jurnal" href="https://kusaeni.com/feed.xml" />
 </head>
