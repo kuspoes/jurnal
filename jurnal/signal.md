@@ -24,7 +24,7 @@ Pihak Facebook sendiri sudah sering menyampaikan klaim bahwa aplikasi mereka dia
 Beberapa tahun yang lalu, Facebook pernah memberikan opsi kepada pengguna Whatsapp untuk memilih apakah bersedia memberikan informasi data pribadi kepada Facebook atau tidak. Namun dengan perubahan *privacy policy* yang baru ini maka pengguna tidak lagi memiliki opsi serupa.
 
 Jenis data pribadi yang diincar oleh Facebook adalah informasi tentang hal - hal berikut ini :
-<ul class="list-disc space-y-3 leading-7">
+<ul class="space-y-3 leading-7">
     <li class="space-y-3">Nomer telepon pengguna,</li>
     <li class="space-y-3">Nomer telepon orang lain yang terdaftar sebagai kontak di telepon pengguna,</li>
     <li class="space-y-3">Nama profil dan <i>picture profile</i>,</li>
