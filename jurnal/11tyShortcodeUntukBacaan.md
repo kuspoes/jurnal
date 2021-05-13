@@ -23,7 +23,7 @@ dari masing - masing artikel baca yang sudah saya tulis.
 Hal pertama yang dilakukan adalah membuat basis data dan menyimpannya dalam format JSON. Caranya adalah dengan membuat *file* baru dan memasukkan data `collection` dengan format menyesuaikan bentuk format *valid* dari JSON.
 
 {% raw %}
-```json
+```html
 ---
 permalink : /baca/data.json
 ---
@@ -44,7 +44,7 @@ permalink : /baca/data.json
 
 `title`, `date`, `url`, `ringkasan` dan seterusnya adalah *field* yang sudah saya tulis di YAML/*frontmatter* pada setiap artikel baca. Tampilan *frontmatter* seperti ini :
 
-```xml
+```yaml
 ---
     layout: isi/buku.njk
     title : 'Sewu Dino'
@@ -163,8 +163,8 @@ const relasi = function (buku, judul) {
  })
 return buku[index]
  };
+
 const hasilData = await relasi(data, judul);
-console.log(hasilData)
 ```
 <p class="code_cap">Kita sebut ini sebagai kode pertama, silakan lihat di seksi <i>update</i> untuk
 kode kedua dan ketiga sebagai alternatif.</p>
@@ -343,11 +343,3 @@ itu. Sedikit merepotkan tapi terbayar dengan gegasnya saat `build`.
 Dengan mempergunakan *paired shortcodes* ini, waktu `build` **dipangkas hampir 300%** yang awalnya
 sekitar 9 - 10 detik menjadi 2 - 3 detik saja.
 
-Akhirnya berikut adalah tabel perbandingan kecepatan `build` dengan mempergunakan masing - masing
-kode diatas :
-
-|Metode                             | Waktu     |
-|-----------------------------------|-----------|
-|shortcode + fetch + findIndex      |8,02 detik |
-|shortcode + fetch + find           |9,02 detik |
-|paired shortcode                   |3 detik    |  

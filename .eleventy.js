@@ -10,7 +10,8 @@ const readerBar         = require('eleventy-plugin-reader-bar');
 const fetch             = require('node-fetch');
 const _                 = require('lodash');
 const embedTwitter      = require("eleventy-plugin-embed-twitter");
-const fs                = require('fs')
+const CleanCSS          = require("clean-css")
+
 
 module.exports = function(eleventyConfig) {
 	eleventyConfig.addFilter('dateReadable', date => {
@@ -24,12 +25,15 @@ module.exports = function(eleventyConfig) {
 		)
 	});
 
+    eleventyConfig.addFilter('cssmin', function(code){
+        return new CleanCSS({format: 'beautify'}).minify(code).styles;
+    });
+
 	// statik
 	eleventyConfig.addPassthroughCopy("css");
 	eleventyConfig.addPassthroughCopy("js");
 	eleventyConfig.addPassthroughCopy("favicon.ico");
 
-    
     eleventyConfig.addLiquidShortcode("related", async function (judul) {
 		try {
             const response = await fetch('https://kusaeni.com/baca/data.json');
@@ -153,7 +157,7 @@ module.exports = function(eleventyConfig) {
     // Biar mudah dicomment
     // lazy images
 	//eleventyConfig.addPlugin(lazyImagesPlugin);
-	
+/*	
     // compress html output
     eleventyConfig.addTransform("htmlmin", function (content, outputPath) {
 		if (outputPath.endsWith(".html")) {
@@ -166,5 +170,5 @@ module.exports = function(eleventyConfig) {
 		}
 		return content;
     });
-
+    */
 };
