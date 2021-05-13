@@ -343,3 +343,4 @@ itu. Sedikit merepotkan tapi terbayar dengan gegasnya saat `build`.
 Dengan mempergunakan *paired shortcodes* ini, waktu `build` **dipangkas hampir 300%** yang awalnya
 sekitar 9 - 10 detik menjadi 2 - 3 detik saja.
 
+ <img src="https://ik.imagekit.io/hjse9uhdjqd/jurnal/chart_9ZDZx1SgM.png" alt="Chart Perbandingan Build Time" />

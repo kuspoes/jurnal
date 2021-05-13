@@ -157,7 +157,7 @@ module.exports = function(eleventyConfig) {
     // Biar mudah dicomment
     // lazy images
 	//eleventyConfig.addPlugin(lazyImagesPlugin);
-/*	
+	
     // compress html output
     eleventyConfig.addTransform("htmlmin", function (content, outputPath) {
 		if (outputPath.endsWith(".html")) {
@@ -170,5 +170,5 @@ module.exports = function(eleventyConfig) {
 		}
 		return content;
     });
-    */
+
 };
