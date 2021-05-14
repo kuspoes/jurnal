@@ -94,9 +94,10 @@ Saya ingin agar bentuk *tags*nya adalah sebagai berikut :
 
 {% raw %}
 ```liquid
-{% related "judul" %}
+ {% related "judul" %}
 ```
 {% endraw %}
+
 
 dimana `related` akan menjadi fungsi pemanggil *shortcodes* dan `judul` menjadi *string query* untuk mencari *field* di dalam JSON Array.
 
@@ -106,7 +107,7 @@ Sehingga di *file eleventy.js* saya menambahkan *syntax* berikut :
 eleventyConfig.addLiquidShortcode("related", async function(judul){}
 ```
 
- <p class="sidenote">Saya sebenarnya adalah pengguna <a href="https://mozilla.github.io/nunjucks/" alt="Nunjucks">Nunjucks</a>, namun karena <i>default render</i> <code>markdown</code> di <i>eleventy</i> mempergunakan <a href="https://shopify.github.io/liquid/" alt="Liquid template Tags">Liquid</a>. Maka <i>shortcodes</i> saya mempergunakan Liquid</p>
+<p class="sidenote">Saya sebenarnya adalah pengguna <a href="https://mozilla.github.io/nunjucks/" alt="Nunjucks">Nunjucks</a>, namun karena <i>default render</i> <code>markdown</code> di <i>eleventy</i> mempergunakan <a href="https://shopify.github.io/liquid/" alt="Liquid template Tags">Liquid</a>. Maka <i>shortcodes</i> saya mempergunakan Liquid</p>
  <p class="sidenote">Namun bisa juga mempergunakan <b>global shortcodes</b> dengan kode <code>eleventyConfig.addShortcode</code> yang bisa jalan di semua <i>template tags</i>
 
 2. Ambil basis data dan buat fungsi *query*
