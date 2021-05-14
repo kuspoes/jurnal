@@ -1,0 +1,4 @@
+Sitemap: https://kusaeni.com/sitemap.xml
+
+User-agent: *
+Disallow:
