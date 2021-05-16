@@ -2,6 +2,7 @@
   layout: isi/jurnal.njk 
   title: '11ty: Related Books'
   ringkasan: 'Shortcode untuk menampilkan related books dengan memanfaatkan JSON data'
+  keywords: 'eleventy, 11ty, json, global data, tutorial, shortcode'
   date: 2021-05-02
   update: true
   tags:

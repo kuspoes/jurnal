@@ -10,7 +10,7 @@ const readerBar         = require('eleventy-plugin-reader-bar');
 const fetch             = require('node-fetch');
 const _                 = require('lodash');
 const embedTwitter      = require("eleventy-plugin-embed-twitter");
-const CleanCSS          = require("clean-css")
+//const CleanCSS          = require("clean-css")
 
 
 module.exports = function(eleventyConfig) {
@@ -50,7 +50,7 @@ module.exports = function(eleventyConfig) {
 				<div class="flex-1 w-1/2 pl-8 text-lg text-gray-700"> 
 					<b><a href="${hasilData.url}" title="${hasilData.title}">${hasilData.title}</a> </b>
 					<dl>
-						<dt>${hasilData.penulis} </d> 
+						<dt>${hasilData.penulis} </dt> 
 						<dd>${rese} ...</dd>
 					</dl>
 				</div>
@@ -81,8 +81,8 @@ module.exports = function(eleventyConfig) {
     // post-related article
     eleventyConfig.addPairedShortcode("prelated", function(desk, judul, url){
         return `<div class="w-99 mx-auto my-8 border border-gray-400 py-2 px-3 rounded-md">
-            <h4 class="mt-0 text-sm font-bold text-gray-500 tracking-tighter uppercase mb-2">Artikel terkait</h4>
-            <a class="text-xl font-semibold text-gray-900" href="${url}" title="${judul}">${judul}</a>
+            <h4 class="mt-0 text-sm font-sans font-bold text-gray-500 tracking-tighter uppercase mb-2">Artikel terkait</h4>
+            <a class="text-2xl font-bold text-gray-900" href="${url}" title="${judul}">${judul}</a>
             <p class="font-sans text-gray-600 text-base mb-1">${desk}</p>
         </div>`;
     });
@@ -159,7 +159,7 @@ module.exports = function(eleventyConfig) {
     // Biar mudah dicomment
     // lazy images
 	//eleventyConfig.addPlugin(lazyImagesPlugin);
-	
+
     // compress html output
     eleventyConfig.addTransform("htmlmin", function (content, outputPath) {
 		if (outputPath.endsWith(".html")) {
