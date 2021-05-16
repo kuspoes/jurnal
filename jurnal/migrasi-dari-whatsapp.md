@@ -18,8 +18,8 @@
 Sesuai dengan pemberitahuan dari Whatsapp mengenai [penundaan penerapan *privacy
 policy*](https://blog.whatsapp.com/giving-more-time-for-our-recent-update) maka per 16 Mei 2021 rencanaya *privacy policy* tersebut telah diaktifkan.
 
-{% prelated "11ty Reader Bar", "/jurnal/signal" %}
-Perubahan privacy policy Whatsapp, resiko, dan solusinya
+{% prelated "Signal Buruk Whatsapp", "/jurnal/signal" %}
+Perubahan <i>privacy policy</i> Whatsapp, resiko, dan solusinya
 {% endprelated %}
 
 Bagi yang tidak setuju dengan *privacy policy* terbaru ini maka konsekuensinya adalah pengguna
