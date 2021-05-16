@@ -40,7 +40,7 @@ Data yang akan dipindahkan hanya sekedar ekspor data dalam format `ZIP` yang bis
 dengan teks editor sederhana atau dari dalam aplikasi Signal.
 
 1. Buka aplikasi Whatsapp, kemudian pilih pada percakapan yang diinginkan untuk dipindahkan,
-2. (Android) tap pada menu `⋮` yang terletak di pojok kanan atas, kemudian pilih opsi `more` dan
+2. (Android) tap pada menu `⋮` yang terletak di pojok kanan atas, kemudian pilih opsi `More` dan
    tap pada `Export Chat`,
    <span class="code_cap">langsung lompat ke cara nomer 04 jika tidak mempergunakan iPhone</span>
 3. (iPhone) : tap pada nama *User* atau *Group* kemudian gulir ke bawah dan tap pada `Export
@@ -91,7 +91,7 @@ BIP dan tuju akun kontaknya. Data akan ditampilkan secara `read only` di dalam l
 berpindah ke layanan lain jelas menjadi pilihan utama. 
 
 Saya pribadi lebih memilih pindah ke Signal meski untuk urusan impor data masih keteteran
-dibandingkan kompetitor. Harapannya adalah dalam waktu dekat Signal bisa merilis *tools untuk impor
+dibandingkan kompetitor. Harapannya adalah dalam waktu dekat Signal bisa merilis *tools* untuk impor
 data dari Whatsapp.
 
 Pilihan kedua yang lebih baik jatuh kepada BIP.
