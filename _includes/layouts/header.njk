@@ -14,6 +14,12 @@
     {% if code %}<link rel="stylesheet" href="{{ '/css/prism.css' | url }}" as="style">{% endif %}
     <link rel="shortcut icon" href="{{ '/favicon.ico' | url }}" type="image/x-icon">
     <link rel="alternate" type="application/rss+xml" title="Subscribe to Kusaeni Jurnal" href="https://kusaeni.com/feed.xml" />
+    <meta name="twitter:title" content="{{ title }}">
+    <meta name="twitter:description" content="{{ ringkasan or metadata.description  }}">
+    <meta name="twitter:image" content="{{ '/css/img/kusaeni.png' | url }}">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="{{ page.url  }}">
+    <meta name="twitter:site" content="https://twitter.com/kuspoes">
     </head>
 {% if '/subs' in page.url %}
 <body id="top" class="font-sans text-lg bg-gray-100 md:text-xl">

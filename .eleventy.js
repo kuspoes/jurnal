@@ -11,7 +11,7 @@ const fetch             = require('node-fetch');
 const _                 = require('lodash');
 const embedTwitter      = require("eleventy-plugin-embed-twitter");
 //const CleanCSS          = require("clean-css")
-
+//const generateSocialImages = require("@manustays/eleventy-plugin-generate-social-images");
 
 module.exports = function(eleventyConfig) {
 	eleventyConfig.addFilter('dateReadable', date => {
@@ -120,6 +120,15 @@ module.exports = function(eleventyConfig) {
 	// embed twitter
     eleventyConfig.addPlugin(embedTwitter);
 
+    //eleventyConfig.addPlugin(generateSocialImages, {
+    //        promoImage: "./css/img/kusaeni.png",
+    //        outputDir: "./_site/css/img/preview",
+    //        urlPath: "css/img/preview",
+    //        siteName: "kusaeni.com",
+    //        titleColor: "#fedb8b",
+    //        bgGradient: ['#ABB8C0', '#A0ACB3']
+    //});
+
     // Next Prev 
 	eleventyConfig.addCollection("baca", function (collection) {
 		const coll = collection.getFilteredByTag("baca");
@@ -159,7 +168,7 @@ module.exports = function(eleventyConfig) {
     // Biar mudah dicomment
     // lazy images
 	//eleventyConfig.addPlugin(lazyImagesPlugin);
-
+/*
     // compress html output
     eleventyConfig.addTransform("htmlmin", function (content, outputPath) {
 		if (outputPath.endsWith(".html")) {
@@ -172,5 +181,5 @@ module.exports = function(eleventyConfig) {
 		}
 		return content;
     });
-
+    */
 };
