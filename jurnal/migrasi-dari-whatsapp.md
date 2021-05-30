@@ -5,7 +5,7 @@
   keywords: 'Whatsapp, Signal, Telegram, BIP, migration, migrasi, ekspor, data, export, impor,
   pindah'
   date: 2021-05-16
-  update: false 
+  update: true 
   tags:
       - signal
       - telegram
@@ -29,6 +29,9 @@ Meski begitu sampai saat ini tidak ada pemberitahuan resmi di laman blog Whatsap
 berjaga - jaga, berikut adalah cara untuk memindahkan/*exports* data percakapan ke penyedia layanan
 *messaging* lain seperti Telegram atau Signal.
 
+### Update {#update .text-red-500}
+
+25 Mei 2021. Menurut situs [XDA Developer](https://www.xda-developers.com/whatsapp-wont-limit-user-accounts-india/), Whatsapp memperpanjang lagi waktu jeda pengaktifkan *privaci policy* terbaru untuk pengguna di negara tertentu seperti India sampai dengan 5 bulan setelah jeda terakhir (bulan Pebruari). Tidak diketahui apakah Indonesia termasuk dalam daftar negara pengguna Whatsapp yang ikut dijeda.
 
 ### Ekspor ke Signal
 
