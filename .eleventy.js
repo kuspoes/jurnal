@@ -1,6 +1,6 @@
 const markdownIt        = require('markdown-it');
 const mdatrs            = require('markdown-it-attrs');
-//const lazyImagesPlugin  = require('eleventy-plugin-lazyimages');
+const lazyImagesPlugin  = require('eleventy-plugin-lazyimages');
 const syntaxHighlight   = require("@11ty/eleventy-plugin-syntaxhighlight");
 //const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 //const Cache             = require('@11ty/eleventy-cache-assets');
@@ -15,14 +15,14 @@ const embedTwitter      = require("eleventy-plugin-embed-twitter");
 
 module.exports = function(eleventyConfig) {
 	eleventyConfig.addFilter('dateReadable', date => {
-		return new Date(date).toLocaleDateString(
-			'id-ID',
-			{
-				year: 'numeric',
-				month: 'long',
-				day: 'numeric'
-			}
-		)
+    return new Date(date).toLocaleDateString(
+	    'id-ID',
+	    {
+		 year: 'numeric',
+		 month: 'long',
+		 day: 'numeric'
+	    }
+    )
 	});
 
   	// statik
@@ -138,7 +138,7 @@ module.exports = function(eleventyConfig) {
 
     // Biar mudah dicomment
     // lazy images
-    //eleventyConfig.addPlugin(lazyImagesPlugin);
+    eleventyConfig.addPlugin(lazyImagesPlugin);
 
     // compress html output
     eleventyConfig.addTransform("htmlmin", function (content, outputPath) {
