@@ -25,11 +25,7 @@ module.exports = function(eleventyConfig) {
 		)
 	});
 
-    eleventyConfig.addFilter('cssmin', function(code){
-        return new CleanCSS({format: 'beautify'}).minify(code).styles;
-    });
-
-	// statik
+  	// statik
 	eleventyConfig.addPassthroughCopy("css");
 	eleventyConfig.addPassthroughCopy("js");
 	eleventyConfig.addPassthroughCopy("favicon.ico");
@@ -37,13 +33,13 @@ module.exports = function(eleventyConfig) {
 
 
     eleventyConfig.addLiquidShortcode("related", async function (judul) {
-		try {
+    try {
             const response = await fetch('https://kusaeni.com/baca/data.json');
             const data     = await response.json();
             const hasilData= data.find(function(caridata) {
                 return caridata.title.toLowerCase() === judul.toLowerCase()
             }); 
-            //console.log(hasilData)
+ 
             var rese = await hasilData.resensi.substr(0, 200)
             return `<div class="flex flex-row border border-gray-400 rounded-xl w-99 mx-auto mb-6 p-6 font-sans">
                 <img class="shadow-md" src="${hasilData.coverImg}" width="110" height="130" >
@@ -88,7 +84,7 @@ module.exports = function(eleventyConfig) {
         typographer: true
     });
     eleventyConfig.setLibrary("md", markdownLibrary.use(mdatrs, {
-        allowedAttrubutes: ['id', 'class']
+        allowedAttributes: ['id', 'class']
     }));
     eleventyConfig.addFilter('mdParse', function(resensi) {
         let mdp = new markdownIt({html: true, typographer: true });
@@ -98,9 +94,6 @@ module.exports = function(eleventyConfig) {
     // syntax highlighting
     eleventyConfig.addPlugin(syntaxHighlight);
 
-    // syntax highlighting
-    //eleventyConfig.addPlugin(eleventyNavigationPlugin);
-
     // rss
     eleventyConfig.addPlugin(pluginRss);
 
@@ -109,15 +102,6 @@ module.exports = function(eleventyConfig) {
 
     // embed twitter
     eleventyConfig.addPlugin(embedTwitter);
-
-    //eleventyConfig.addPlugin(generateSocialImages, {
-    //        promoImage: "./css/img/kusaeni.png",
-    //        outputDir: "./_site/css/img/preview",
-    //        urlPath: "css/img/preview",
-    //        siteName: "kusaeni.com",
-    //        titleColor: "#fedb8b",
-    //        bgGradient: ['#ABB8C0', '#A0ACB3']
-    //});
 
     // Next Prev 
     eleventyConfig.addCollection("baca", function (collection) {
