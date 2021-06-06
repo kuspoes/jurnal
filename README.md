@@ -1,5 +1,6 @@
 # kusaicom
-[![Netlify Status](https://api.netlify.com/api/v1/badges/df1d5d40-df8a-47b5-80b1-1eed78d9953d/deploy-status)](https://app.netlify.com/sites/cranky-almeida-76230e/deploys)
+[![Netlify
+Status](https://api.netlify.com/api/v1/badges/df1d5d40-df8a-47b5-80b1-1eed78d9953d/deploy-status)](https://app.netlify.com/sites/kusaeni/deploys)
 [![license: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE.md)
 [![eleventy](https://img.shields.io/badge/staticgen-eleventy-%23707070.svg)](https://11ty.io)
 
