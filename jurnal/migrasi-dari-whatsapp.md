@@ -33,6 +33,9 @@ berjaga - jaga, berikut adalah cara untuk memindahkan/*exports* data percakapan 
 
 25 Mei 2021. Menurut situs [XDA Developer](https://www.xda-developers.com/whatsapp-wont-limit-user-accounts-india/), Whatsapp memperpanjang lagi waktu jeda pengaktifkan *privaci policy* terbaru untuk pengguna di negara tertentu seperti India sampai dengan 5 bulan setelah jeda terakhir (bulan Pebruari). Tidak diketahui apakah Indonesia termasuk dalam daftar negara pengguna Whatsapp yang ikut dijeda.
 
+Dari [The
+Verge](https://www.theverge.com/2021/5/28/22458805/whatsapp-privacy-policy-no-plans-limit-functionality) diinfokan bahwa Whatsapp tidak akan membatasi fitur dan fungsi untuk pengguna yang tidak setuju dengan *privacy policy* namun akan terus menampilkan peringatan untuk menyetujui *privacy policy*.
+
 ### Ekspor ke Signal
 
 Sebelum memindahkan data, yang harus dilakukan pertama kali adalah mengekspor data percakapan yang

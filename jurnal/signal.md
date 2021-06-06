@@ -60,6 +60,10 @@ Alternatif
 
 Bagi pengguna yang keberatan dengan *privacy policy* baru ini maka mau tidak mau harus berpindah dari aplikasi Whatsapp dan mulai memakai aplikasi *messenger* lainnya.
 
+{% prelated "Migrasi dari Whatsapp", "/jurnal/migrasi-dari-whatsapp" %}
+Cara memindahkan data percakapan dari Whatsapp ke Telegram, Signal, atau BIP
+{% endprelated %}
+
 Salah satu yang terbaik adalah [Signal](https://signal.org/).
 
 Signal adalah aplikasi *messenger* yang memberikan fungsi dan fitur yang sama dengan Whatsapp namun datang dengan *privacy policy* dan aturan pakai yang lebih transparan kepada penggunanya. Bahkah fitur *end to end endcryption* yang dipergunakan oleh Whatsapp mengadopsi protokol *encryption* milik Signal.

@@ -138,7 +138,7 @@ module.exports = function(eleventyConfig) {
 
     // Biar mudah dicomment
     // lazy images
-    eleventyConfig.addPlugin(lazyImagesPlugin);
+    //eleventyConfig.addPlugin(lazyImagesPlugin);
 
     // compress html output
     eleventyConfig.addTransform("htmlmin", function (content, outputPath) {
