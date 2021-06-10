@@ -60,10 +60,10 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPairedShortcode("relatedpair", function(resensi, coverImg, judul, url){
         let coverUrl = "https://ik.imagekit.io/hjse9uhdjqd/tr:n-cover/buku/"
         return `<div class="flex flex-row border border-gray-400 rounded-xl w-99 mx-auto mb-6 p-6 font-sans">
-        <img class="shadow-md" src="${coverUrl}${coverImg}" width="110" height="130" >
+        <img class="shadow-md" src="${coverUrl}${coverImg}" width="150">
         <div class="flex-1 w-1/2 pl-8 text-lg text-gray-700"> 
         <b><a href="${url}" title="${judul}">${judul}</a></b>
-        <dd>${resensi} ...</dd>
+        <dd class="text-base">${resensi} ...</dd>
         </dl></div></div>`;
     });
 
