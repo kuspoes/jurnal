@@ -76,6 +76,8 @@ Sebelum Ranjat Kembang muncul, Simpleman pernah membuat *threads* di Wattpad den
  Bayu Saseno berusaha menyelam dalam ingatan masa lalunya, mencari dimana keberadaannya dalam tatanan bunga Wijayakusuma. Kudro adalah mereka yang menjadi antitesis dari para Trah Pitu. Mereka yang nantinya akan bersatu untuk menghancurkan Trah Pitu, dan sudah dimulai ketika terjadi perperangan diantara Trah Pitu itu sendiri. Saat Janur Ireng dilepaskan, maka awal dari akhir Trah Pitu telah dibukakan. 
 {% endrelatedpair %}
 
+ <p class="sidenote">Serial Kudro ini menceritakan asal muasal dan awal perjalanan Bayu Saseno, salah satu Kudro keluarga Trah Pituh</p>
+
 Buku ini cukup bagus meski tidak istimewa, hanya saja kualitas *cover* bukunya mengecewakan. Untuk buku yang *pre-order*nya dihargai Rp. 143.000,00 (termasuk ongkir), *cover* buku ini tipis sekali dan lucunya saat dibiarkan di atas meja, *cover*nya tergulung seperti rambut wig para bangsawan parlemen Inggris pada jaman Victoria.
 
  <h3 class="text-xl font-semibold text-gray-500"><span class="text-red-500">UPDATE</span></h3>
